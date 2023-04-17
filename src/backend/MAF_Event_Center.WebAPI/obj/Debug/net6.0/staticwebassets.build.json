@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "k10vnlq6Iq3ZX5l7UEQfhP/3LhXWVP5Q5Y2i1zTaCaI=",
+  "Source": "MAF_Event_Center.WebAPI",
+  "BasePath": "_content/MAF_Event_Center.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
