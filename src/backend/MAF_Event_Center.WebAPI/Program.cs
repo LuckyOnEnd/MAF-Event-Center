@@ -1,3 +1,12 @@
+using MAF_Event_Center.Application;
+using MAF_Event_Center.Application.Handlers;
+using MAF_Event_Center.Application.Queries;
+using MAF_Event_Center.Domain.Entities;
+using MediatR;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
+
 namespace MAF_Event_Center.WebAPI
 {
     public class Program
@@ -12,6 +21,8 @@ namespace MAF_Event_Center.WebAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddMediatR(typeof(Extensions));
+
 
             var app = builder.Build();
 

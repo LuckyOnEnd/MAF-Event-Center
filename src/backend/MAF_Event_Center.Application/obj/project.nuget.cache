@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0DF5+fc+ofRzdH6KlWo6UipPINac1o/6GuaSfqJfz4Y1lKet2ZH+hvmLaVKilPybxaPMbDuv4jjzjTnKKaAbDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Viacheslav Trus\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Viacheslav Trus\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

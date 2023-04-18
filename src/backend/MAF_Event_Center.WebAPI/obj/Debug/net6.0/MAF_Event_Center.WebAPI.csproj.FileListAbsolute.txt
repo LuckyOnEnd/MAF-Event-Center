@@ -30,3 +30,43 @@ D:\development\freelance\MAF_Event_Center\backend\MAF_Event_Center.WebAPI\obj\De
 D:\development\freelance\MAF_Event_Center\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.pdb
 D:\development\freelance\MAF_Event_Center\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.genruntimeconfig.cache
 D:\development\freelance\MAF_Event_Center\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\ref\MAF_Event_Center.WebAPI.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.WebAPI.exe
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.WebAPI.deps.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.WebAPI.runtimeconfig.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.WebAPI.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.WebAPI.pdb
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Domain.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Domain.pdb
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.csproj.AssemblyReference.cache
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.AssemblyInfoInputs.cache
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.AssemblyInfo.cs
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.MAF_Event_Center.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.MAF_Event_Center.WebAPI.props
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MAF_Event_Center.WebAPI.props
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MAF_Event_Center.WebAPI.props
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\scopedcss\bundle\MAF_Event_Center.WebAPI.styles.css
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.csproj.CopyComplete
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\refint\MAF_Event_Center.WebAPI.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.pdb
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.genruntimeconfig.cache
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\ref\MAF_Event_Center.WebAPI.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MediatR.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Application.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Application.pdb
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Viacheslav Trus\Desktop\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
