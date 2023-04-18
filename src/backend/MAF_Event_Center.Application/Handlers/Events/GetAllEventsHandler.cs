@@ -1,4 +1,5 @@
 ﻿using MAF_Event_Center.Application.Queries;
+using MAF_Event_Center.Application.Services;
 using MAF_Event_Center.Domain.Entities;
 using MediatR;
 using System;
@@ -11,17 +12,16 @@ namespace MAF_Event_Center.Application.Handlers.Events
 {
     public class GetAllEventsHandler : IRequestHandler<GetAllEventsQuery, List<Event>>
     {
-        public List<Event> events = new List<Event>()
+        private readonly IRepository<Event> _repository;
+        public GetAllEventsHandler(IRepository<Event> repository)
         {
-            new Event("First event",DateTime.Now, DateTime.Now.AddDays(1), "asd.com")
-        };
-        public GetAllEventsHandler()
-        {
+            _repository = repository;
         }
 
         public Task<List<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(events);
+            var result = _repository.GetAll();
+            return Task.FromResult(result.ToList());
         }
     }
 }

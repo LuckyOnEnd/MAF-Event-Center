@@ -11,7 +11,8 @@ namespace MAF_Event_Center.Domain.Entities
         public Guid Id { get; set; }
         public string ?Name { get; set; }
         public string ?ImageUrl { get; set; }
-
+        
+        internal Game() { }
         public Game(string? name, string? imageUrl)
         {
             Id = Guid.NewGuid();

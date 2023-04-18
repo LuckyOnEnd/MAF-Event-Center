@@ -22,13 +22,12 @@ namespace MAF_Event_Center.Domain.Entities
         public string ?HostLink { get; private set; }
         public DateTime CreatedAt { get; private set; }
 
-        public Event(string name, DateTime startEvent, DateTime endEvent, string hostLink)
+        public Event(string name, DateTime startEvent, DateTime endEvent, string gameId, string hostLink)
         {
             Id = Guid.NewGuid();
             Name = name;
             StartEvent = startEvent;
             EndEvent = endEvent;
-            Game = new("asd","asd");
             HostLink = hostLink;
             CreatedAt = DateTime.Now;
         }

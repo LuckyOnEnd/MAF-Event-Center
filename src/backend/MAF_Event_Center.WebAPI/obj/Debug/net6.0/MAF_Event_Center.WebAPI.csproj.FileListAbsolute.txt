@@ -98,7 +98,6 @@ D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\De
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Application.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Domain.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\MAF_Event_Center.Infastructure.dll
@@ -226,3 +225,16 @@ D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\ob
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.pdb
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\MAF_Event_Center.WebAPI.genruntimeconfig.cache
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\obj\Debug\net6.0\ref\MAF_Event_Center.WebAPI.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Azure.Core.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
