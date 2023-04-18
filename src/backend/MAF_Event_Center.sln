@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAF_Event_Center.WebAPI", "MAF_Event_Center.WebAPI\MAF_Event_Center.WebAPI.csproj", "{874FDE72-D0CF-4883-ABD7-B1BD6EC29680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAF_Event_Center.Domain", "MAF_Event_Center.Domain\MAF_Event_Center.Domain.csproj", "{101282FF-261D-422A-B362-0AE49011E517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAF_Event_Center.Domain", "MAF_Event_Center.Domain\MAF_Event_Center.Domain.csproj", "{101282FF-261D-422A-B362-0AE49011E517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAF_Event_Center.Application", "MAF_Event_Center.Application\MAF_Event_Center.Application.csproj", "{AB0B3EEB-B191-4A7F-9E65-FBB70DB1BBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAF_Event_Center.Application", "MAF_Event_Center.Application\MAF_Event_Center.Application.csproj", "{AB0B3EEB-B191-4A7F-9E65-FBB70DB1BBDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAF_Event_Center.Infastructure", "MAF_Event_Center.Infastructure\MAF_Event_Center.Infastructure.csproj", "{4FCF7B37-28AF-43F6-91F5-F817C0E40B49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AB0B3EEB-B191-4A7F-9E65-FBB70DB1BBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0B3EEB-B191-4A7F-9E65-FBB70DB1BBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0B3EEB-B191-4A7F-9E65-FBB70DB1BBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCF7B37-28AF-43F6-91F5-F817C0E40B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCF7B37-28AF-43F6-91F5-F817C0E40B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCF7B37-28AF-43F6-91F5-F817C0E40B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCF7B37-28AF-43F6-91F5-F817C0E40B49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

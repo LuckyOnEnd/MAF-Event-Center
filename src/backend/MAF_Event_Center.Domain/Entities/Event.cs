@@ -32,8 +32,5 @@ namespace MAF_Event_Center.Domain.Entities
             HostLink = hostLink;
             CreatedAt = DateTime.Now;
         }
-
-        public Event() { }
-
     }
 }

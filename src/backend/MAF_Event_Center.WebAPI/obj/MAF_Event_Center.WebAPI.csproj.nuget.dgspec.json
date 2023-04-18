@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj": {}
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
         "projectName": "MAF_Event_Center.Application",
-        "projectPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
-        "packagesPath": "C:\\Users\\Viacheslav Trus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\obj\\",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Viacheslav Trus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
-                "projectPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
         "projectName": "MAF_Event_Center.Domain",
-        "projectPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
-        "packagesPath": "C:\\Users\\Viacheslav Trus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\obj\\",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Viacheslav Trus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,6 +108,12 @@
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -126,21 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj",
-        "projectName": "MAF_Event_Center.WebAPI",
-        "projectPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Viacheslav Trus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\obj\\",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj",
+        "projectName": "MAF_Event_Center.Infastructure",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Viacheslav Trus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,11 +160,88 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
-                "projectPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj"
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj"
               },
-              "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
-                "projectPath": "C:\\Users\\Viacheslav Trus\\Desktop\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj",
+        "projectName": "MAF_Event_Center.WebAPI",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\MAF_Event_Center.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj"
+              },
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
+              },
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj"
               }
             }
           }
@@ -180,6 +263,16 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -205,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

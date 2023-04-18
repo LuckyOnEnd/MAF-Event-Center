@@ -1,4 +1,5 @@
 ﻿using MAF_Event_Center.Application.Command;
+using MAF_Event_Center.Application.Services;
 using MAF_Event_Center.Domain.DTOs.Event;
 using MAF_Event_Center.Domain.Entities;
 using MediatR;
@@ -12,13 +13,12 @@ namespace MAF_Event_Center.Application.Handlers.Events.CommandHandler
 {
     public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, CreateEventDTO>
     {
-        public List<Event> events = new List<Event>()
-        {
-            new Event("First event",DateTime.Now, DateTime.Now.AddDays(1), new Game("CS:GO", "https/:google.com"),"asd.com")
-        };
+        private readonly IRepository<Event> _repository;
+       
         public Task<CreateEventDTO> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
-            events.Add(new Event("First event", DateTime.Now, DateTime.Now.AddDays(1), new Game("CS:GO", "https/:google.com"), "asd.com"));
+            var entity = new Event(request.EventName,request.StartEvent,request.EndEvent,request.Game, request.HostLink);
+            _repository.Add(entity);
 
             return Task.FromResult(new CreateEventDTO());
         }
