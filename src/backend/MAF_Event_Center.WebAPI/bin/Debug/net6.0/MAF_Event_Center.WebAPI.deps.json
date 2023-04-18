@@ -556,7 +556,8 @@
         "dependencies": {
           "MAF_Event_Center.Application": "1.0.0",
           "MAF_Event_Center.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.16"
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
         },
         "runtime": {
           "MAF_Event_Center.Infastructure.dll": {}

@@ -17,7 +17,7 @@ namespace MAF_Event_Center.Application.Handlers.Events.CommandHandler
        
         public Task<CreateEventDTO> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
-            var entity = new Event(request.EventName,request.StartEvent,request.EndEvent,request.Game, request.HostLink);
+            var entity = new Event(request.EventName,request.StartEvent,request.EndEvent, request.HostLink);
             _repository.Add(entity);
 
             return Task.FromResult(new CreateEventDTO());

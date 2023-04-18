@@ -13,7 +13,7 @@ namespace MAF_Event_Center.Application.Handlers.Events
     {
         public List<Event> events = new List<Event>()
         {
-            new Event("First event",DateTime.Now, DateTime.Now.AddDays(1), new Game("CS:GO", "https/:google.com"),"asd.com")
+            new Event("First event",DateTime.Now, DateTime.Now.AddDays(1), "asd.com")
         };
         public GetAllEventsHandler()
         {

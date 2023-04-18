@@ -12,23 +12,23 @@ namespace MAF_Event_Center.Domain.Entities
         [Required]
         public Guid Id { get; private set; }
         [Required]
-        public string ?Name { get; set; }
+        public string ?Name { get; private set; }
         [Required]
-        public DateTime StartEvent { get; set; }
+        public DateTime StartEvent { get; private set; }
         [Required]
-        public DateTime EndEvent { get; set;}
+        public DateTime EndEvent { get; private set;}
         [Required]
-        public Game ?Game { get; set; }   
+        public Game Game { get; private set; }
         public string ?HostLink { get; private set; }
         public DateTime CreatedAt { get; private set; }
 
-        public Event(string name, DateTime startEvent, DateTime endEvent, Game game, string hostLink)
+        public Event(string name, DateTime startEvent, DateTime endEvent, string hostLink)
         {
             Id = Guid.NewGuid();
             Name = name;
             StartEvent = startEvent;
             EndEvent = endEvent;
-            Game = game;
+            Game = new("asd","asd");
             HostLink = hostLink;
             CreatedAt = DateTime.Now;
         }
