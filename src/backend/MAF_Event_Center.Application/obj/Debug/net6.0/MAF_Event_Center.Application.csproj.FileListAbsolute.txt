@@ -43,3 +43,20 @@ D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Applicati
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\refint\MAF_Event_Center.Application.dll
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.pdb
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\ref\MAF_Event_Center.Application.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\bin\Debug\net6.0\MAF_Event_Center.Application.deps.json
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\bin\Debug\net6.0\MAF_Event_Center.Application.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\bin\Debug\net6.0\MAF_Event_Center.Application.pdb
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\bin\Debug\net6.0\MAF_Event_Center.Domain.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\bin\Debug\net6.0\MAF_Event_Center.Domain.pdb
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.csproj.AssemblyReference.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.AssemblyInfoInputs.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.AssemblyInfo.cs
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.csproj.CoreCompileInputs.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.csproj.CopyComplete
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\refint\MAF_Event_Center.Application.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.pdb
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\ref\MAF_Event_Center.Application.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\bin\Debug\net6.0\MAF_Event_Center.Application.runtimeconfig.json
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Application\obj\Debug\net6.0\MAF_Event_Center.Application.genruntimeconfig.cache

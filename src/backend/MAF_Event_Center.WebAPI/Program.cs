@@ -28,6 +28,7 @@ namespace MAF_Event_Center.WebAPI
             builder.Services.AddSwaggerGen();
             builder.Services.AddMediatR(typeof(Extensions));
             builder.Services.AddScoped<IRepository<Event>, EventRepository>();
+            builder.Services.AddScoped<IRepository<Game>, GameRepository>();
             builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             var app = builder.Build();

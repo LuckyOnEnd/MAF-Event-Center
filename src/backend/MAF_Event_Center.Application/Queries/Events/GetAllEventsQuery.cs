@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MAF_Event_Center.Application.Queries
+namespace MAF_Event_Center.Application.Queries.Events
 {
     public class GetAllEventsQuery : IRequest<List<Event>>
     {

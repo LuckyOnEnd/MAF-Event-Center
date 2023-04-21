@@ -1,4 +1,4 @@
-﻿using MAF_Event_Center.Application.Queries;
+﻿using MAF_Event_Center.Application.Queries.Events;
 using MAF_Event_Center.Application.Services;
 using MAF_Event_Center.Domain.Entities;
 using MediatR;
@@ -18,10 +18,9 @@ namespace MAF_Event_Center.Application.Handlers.Events
             _repository = repository;
         }
 
-        public Task<List<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
+        public async Task<List<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
         {
-            var result = _repository.GetAll();
-            return Task.FromResult(result.ToList());
+            return await _repository.GetAllAsync();
         }
     }
 }

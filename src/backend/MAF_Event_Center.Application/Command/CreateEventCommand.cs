@@ -1,5 +1,6 @@
 ﻿using MAF_Event_Center.Domain.DTOs.Event;
 using MAF_Event_Center.Domain.Entities;
+using MAF_Event_Center.Domain.ValueObjects;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,5 @@ using System.Threading.Tasks;
 namespace MAF_Event_Center.Application.Command
 {
     public record CreateEventCommand(string EventName, DateTime StartEvent, DateTime EndEvent,
-       string gameId, string HostLink) : IRequest<CreateEventDTO>;
+       Guid gameId, string HostLink) : IRequest<CreateEventDTO>;
 }

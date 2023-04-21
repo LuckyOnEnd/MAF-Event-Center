@@ -38,3 +38,17 @@ D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\ob
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.pdb
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.genruntimeconfig.cache
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\ref\MAF_Event_Center.Domain.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\bin\Debug\net6.0\MAF_Event_Center.Domain.deps.json
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\bin\Debug\net6.0\MAF_Event_Center.Domain.runtimeconfig.json
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\bin\Debug\net6.0\MAF_Event_Center.Domain.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\bin\Debug\net6.0\MAF_Event_Center.Domain.pdb
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.csproj.AssemblyReference.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.AssemblyInfoInputs.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.AssemblyInfo.cs
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\refint\MAF_Event_Center.Domain.dll
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.pdb
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\MAF_Event_Center.Domain.genruntimeconfig.cache
+C:\Users\Viacheslav Trus\Desktop\WorkPlace\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\obj\Debug\net6.0\ref\MAF_Event_Center.Domain.dll

@@ -41,7 +41,6 @@ namespace MAF_Event_Center.Infastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StartEvent")
@@ -56,7 +55,7 @@ namespace MAF_Event_Center.Infastructure.Migrations
 
             modelBuilder.Entity("MAF_Event_Center.Domain.Entities.Game", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 

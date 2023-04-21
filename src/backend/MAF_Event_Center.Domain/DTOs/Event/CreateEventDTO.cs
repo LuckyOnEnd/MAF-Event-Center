@@ -1,4 +1,5 @@
 ﻿using MAF_Event_Center.Domain.Entities;
+using MAF_Event_Center.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -16,8 +17,7 @@ namespace MAF_Event_Center.Domain.DTOs.Event
         public DateTime StartEvent { get; set; }
         [Required]
         public DateTime EndEvent { get; set; }
-        [Required]
-        public Game? Game { get; set; }
+        public Guid? Game { get; set; }
         public string? HostLink { get; private set; }
     }
 }

@@ -10,11 +10,11 @@ namespace MAF_Event_Center.Application.Services
 {
     public interface IRepository<T> where T : class
     {
-        IEnumerable<T> GetAll();
-        T GetById(Guid id);
-        T GetByName(string Id);
-        void Add(T entity);
-        void Update(T entity);
-        void DeleteById(T entity);
+        Task<List<T>> GetAllAsync();
+        Task<T> GetByIdAsync(Guid id);
+        Task<T> GetByNameAsync(string Id);
+        Task AddAsync(T entity);
+        Task Update(T entity);
+        Task DeleteById(T entity);
     }
 }
