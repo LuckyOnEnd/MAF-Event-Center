@@ -514,7 +514,9 @@
       "MAF_Event_Center.Application/1.0.0": {
         "dependencies": {
           "MAF_Event_Center.Domain": "1.0.0",
-          "MediatR": "11.1.0"
+          "MediatR": "11.1.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
         },
         "runtime": {
           "MAF_Event_Center.Application.dll": {}
@@ -522,7 +524,9 @@
       },
       "MAF_Event_Center.Domain/1.0.0": {
         "dependencies": {
-          "MediatR": "11.1.0"
+          "MediatR": "11.1.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
         },
         "runtime": {
           "MAF_Event_Center.Domain.dll": {}

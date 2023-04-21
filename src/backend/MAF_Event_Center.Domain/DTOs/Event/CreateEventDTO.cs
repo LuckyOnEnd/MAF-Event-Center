@@ -17,7 +17,7 @@ namespace MAF_Event_Center.Domain.DTOs.Event
         [Required]
         public DateTime EndEvent { get; set; }
         [Required]
-        public Game? Game { get; set; }
+        public Guid gameId { get; set; }
         public string? HostLink { get; private set; }
     }
 }

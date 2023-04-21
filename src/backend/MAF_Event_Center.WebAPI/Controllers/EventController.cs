@@ -24,6 +24,13 @@ namespace MAF_Event_Center.WebAPI.Controllers
             return Ok(result);
         }
 
+        [HttpGet("GetEventById")]
+        public async Task<IActionResult> GetEvent([FromQuery] GetEventByIdQuery command)
+        {
+            var result = _mediator.Send(command);
+            return Ok(result);
+        }
+
         [HttpPost]
         public async Task<ActionResult> CreateEvent(CreateEventCommand command)
         {

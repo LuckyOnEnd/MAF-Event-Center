@@ -179,7 +179,6 @@ D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bi
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
@@ -238,3 +237,4 @@ D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\De
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.WebAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

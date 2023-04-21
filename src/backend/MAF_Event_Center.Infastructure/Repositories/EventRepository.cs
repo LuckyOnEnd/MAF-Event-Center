@@ -1,6 +1,7 @@
 ﻿using MAF_Event_Center.Application.Services;
 using MAF_Event_Center.Domain.Entities;
 using MAF_Event_Center.Infastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,37 +20,37 @@ namespace MAF_Event_Center.Infastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public void Add(Event entity)
+        public async Task AddAsync(Event entity)
         {
-            _dbContext.Add(entity);
-            _dbContext.SaveChanges();
+            await _dbContext.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public void DeleteById(Event entity)
+        public async Task DeleteById(Event entity)
         {
             _dbContext.Remove(entity);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync();
         }
 
-        public IEnumerable<Event> GetAll()
+        public async Task<IEnumerable<Event>> GetAllAsync()
         {
-            return _dbContext.Events;
+            var result = await _dbContext.Events.ToListAsync();
+            return result;
         }
-
-        public Event GetById(Guid id)
+        public async Task<Event> GetByIdAsync(Guid id)
         {
-            return _dbContext.Events.FirstOrDefault(x => x.Id == id);
+            return await _dbContext.Events.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public Event GetByName(string name)
+        public async Task<Event> GetByNameAsync(string name)
         {
-            return _dbContext.Events.FirstOrDefault(x => x.Name == name);
+            return await _dbContext.Events.FirstOrDefaultAsync(x => x.Name == name);
         }
 
-        public void Update(Event entity)
+        public async Task Update(Event entity)
         {
             _dbContext.Update(entity);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

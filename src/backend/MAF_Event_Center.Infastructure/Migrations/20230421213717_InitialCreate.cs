@@ -44,7 +44,7 @@ namespace MAF_Event_Center.Infastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     StartEvent = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EndEvent = table.Column<DateTime>(type: "datetime2", nullable: false),
                     GameId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MAF_Event_Center.Application.Queries
 {
-    public class GetAllEventsQuery : IRequest<List<Event>>
+    public class GetAllEventsQuery : IRequest<IEnumerable<Event>>
     {
     }
 }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MAF_Event_Center.Application.Handlers.Events
 {
-    public class GetAllEventsHandler : IRequestHandler<GetAllEventsQuery, List<Event>>
+    public class GetAllEventsHandler : IRequestHandler<GetAllEventsQuery, IEnumerable<Event>>
     {
         private readonly IRepository<Event> _repository;
         public GetAllEventsHandler(IRepository<Event> repository)
@@ -18,10 +18,10 @@ namespace MAF_Event_Center.Application.Handlers.Events
             _repository = repository;
         }
 
-        public Task<List<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
+        public  Task<IEnumerable<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
         {
-            var result = _repository.GetAll();
-            return Task.FromResult(result.ToList());
+            var result = _repository.GetAllAsync();
+            return Task.FromResult(result.Result);
         }
     }
 }
