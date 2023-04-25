@@ -1,5 +1,5 @@
-﻿using MAF_Event_Center.Application.Queries;
-using MAF_Event_Center.Application.Services;
+﻿using MAF_Event_Center.Application.Queries.Events;
+using MAF_Event_Center.Application.Services.Interfaces;
 using MAF_Event_Center.Domain.Entities;
 using MediatR;
 using System;
@@ -18,10 +18,11 @@ namespace MAF_Event_Center.Application.Handlers.Events
             _repository = repository;
         }
 
-        public  Task<IEnumerable<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
+        public Task<IEnumerable<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
         {
             var result = _repository.GetAllAsync();
-            return Task.FromResult(result.Result);
+
+            return result;
         }
     }
 }

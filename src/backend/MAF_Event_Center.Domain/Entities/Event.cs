@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MAF_Event_Center.Domain.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -10,24 +11,28 @@ namespace MAF_Event_Center.Domain.Entities
     public class Event
     {
         [Required]
-        public Guid Id { get; private set; }
-        public string ?Name { get; private set; }
-        public DateTime StartEvent { get; private set; }
-        public DateTime EndEvent { get; private set;}
-        public Game Game { get; private set; }
-        public string ?HostLink { get; private set; }
-        public DateTime CreatedAt { get; private set; }
+        public Guid Id { get;  set; }
+        public string ?Name { get; set; }
+        public bool ? IsDeleted { get; set; } = false;
+        public EventStatus Status { get; set; }
+        public DateTime StartEvent { get; set; }
+        public DateTime EndEvent { get; set;}
+        public Guid GameId { get;  set; }
+        public string ?HostLink { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public Event() { }
-        public Event(string name, DateTime startEvent, DateTime endEvent, Game game, string hostLink)
+        public Event(Guid id,string name, DateTime startEvent, DateTime endEvent, Guid gameId, EventStatus status, string hostLink)
         {
-            Id = Guid.NewGuid();
+            Id = id;
             Name = name;
             StartEvent = startEvent;
             EndEvent = endEvent;
-            Game = game;
+            GameId = gameId;
             HostLink = hostLink;
+            Status = status;
             CreatedAt = DateTime.Now;
+            IsDeleted = false;
         }
     }
 }

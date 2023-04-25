@@ -1,4 +1,4 @@
-﻿using MAF_Event_Center.Application.Services;
+﻿using MAF_Event_Center.Application.Services.Interfaces;
 using MAF_Event_Center.Domain.Entities;
 using MAF_Event_Center.Infastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -12,9 +12,9 @@ namespace MAF_Event_Center.Infastructure.Repositories
 {
     public class GameRepository : IRepository<Game>
     {
-        private readonly AppDbContext _db;
+        private readonly ApplicationDbContext _db;
 
-        public GameRepository(AppDbContext db)
+        public GameRepository(ApplicationDbContext db)
         {
             _db = db;
         }
@@ -34,14 +34,9 @@ namespace MAF_Event_Center.Infastructure.Repositories
             return await _db.Games.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public Task<Game> GetByNameAsync(string Id)
+        public async Task<Game> GetByNameAsync(string name)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task Update(Game entity)
-        {
-            throw new NotImplementedException();
+            return await _db.Games.FirstOrDefaultAsync(x => x.Name == name);
         }
 
         public async Task<IEnumerable<Game>> GetAllAsync()
@@ -49,6 +44,11 @@ namespace MAF_Event_Center.Infastructure.Repositories
             var result = await _db.Games.ToListAsync();
 
             return result;
+        }
+
+        public Task UpdateAsync(Game entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

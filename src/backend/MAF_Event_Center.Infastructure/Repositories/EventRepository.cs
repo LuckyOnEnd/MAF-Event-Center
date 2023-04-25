@@ -1,4 +1,4 @@
-﻿using MAF_Event_Center.Application.Services;
+﻿using MAF_Event_Center.Application.Services.Interfaces;
 using MAF_Event_Center.Domain.Entities;
 using MAF_Event_Center.Infastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -13,16 +13,16 @@ namespace MAF_Event_Center.Infastructure.Repositories
 {
     public class EventRepository : IRepository<Event>
     {
-        public readonly AppDbContext _dbContext;
+        public readonly ApplicationDbContext _dbContext;
 
-        public EventRepository(AppDbContext dbContext)
+        public EventRepository(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
         public async Task AddAsync(Event entity)
         {
-            await _dbContext.AddAsync(entity);
+            await _dbContext.Events.AddAsync(entity);
             await _dbContext.SaveChangesAsync();
         }
 
@@ -47,9 +47,18 @@ namespace MAF_Event_Center.Infastructure.Repositories
             return await _dbContext.Events.FirstOrDefaultAsync(x => x.Name == name);
         }
 
-        public async Task Update(Event entity)
+        public async Task UpdateAsync(Event entity)
         {
-            _dbContext.Update(entity);
+            var result = await _dbContext.Events.FirstOrDefaultAsync(x => x.Id ==  entity.Id);
+            result.Name = entity.Name;
+            result.StartEvent = entity.StartEvent;
+            result.Status = entity.Status;
+            result.HostLink = entity.HostLink;
+            result.IsDeleted = entity.IsDeleted;
+            result.CreatedAt = entity.CreatedAt;
+            result.EndEvent = entity.EndEvent;
+            result.GameId = entity.GameId;
+            _dbContext.Events.Update(result);
             await _dbContext.SaveChangesAsync();
         }
     }

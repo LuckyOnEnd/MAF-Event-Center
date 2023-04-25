@@ -1,5 +1,5 @@
-﻿using MAF_Event_Center.Application.Queries;
-using MAF_Event_Center.Application.Services;
+﻿using MAF_Event_Center.Application.Queries.Events;
+using MAF_Event_Center.Application.Services.Interfaces;
 using MAF_Event_Center.Domain.Entities;
 using MediatR;
 using System;
