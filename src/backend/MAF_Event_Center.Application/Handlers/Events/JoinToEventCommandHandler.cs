@@ -3,6 +3,7 @@ using MAF_Event_Center.Application.Services.Interfaces;
 using MAF_Event_Center.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,17 +16,20 @@ namespace MAF_Event_Center.Application.Handlers.Events
     public class JoinToEventCommandHandler : IRequestHandler<JoinToEventCommand, UserEvent>
     {
         private readonly IRepository<UserEvent> _userEventRepository;
+        private readonly UserManager<AppUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public JoinToEventCommandHandler(IRepository<UserEvent> userEventRepository, IHttpContextAccessor httpContextAccessor)
+        public JoinToEventCommandHandler(IRepository<UserEvent> userEventRepository, IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager)
         {
             _userEventRepository = userEventRepository;
             _httpContextAccessor = httpContextAccessor;
+            _userManager = userManager;
         }
 
         public async Task<UserEvent> Handle(JoinToEventCommand request, CancellationToken cancellationToken)
         {
-            var userId = _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);   
+            var user = _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
+            var userId = _userManager.FindByNameAsync(user).Result.Id;
             var userEvent = new UserEvent(Guid.Parse(userId), request.eventId);
 
             await _userEventRepository.AddAsync(userEvent);

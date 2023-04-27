@@ -22,7 +22,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
 
         [Route("SignIn")]
         [HttpPost]
-        public async Task<IActionResult> Login(LoginModel model)
+        public async Task<IActionResult> SignIn(LoginModel model)
         {
             try
             {

@@ -196,16 +196,16 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "MAF_Event_Center.SPA.dll": "sha256-c8LbrJ89svZyNyytJ9MI8wsTLr4Do5GdZQNreTEdh4c="
+      "MAF_Event_Center.SPA.dll": "sha256-o7UcL6AOakYgYDN9WrOnVFqlvEd5Tj4l8r6bOMHqnJg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MAF_Event_Center.SPA.pdb": "sha256-0yX6134PTxakK7OaFbQWye72d5rjymdOjLm8KsrH3IY="
+      "MAF_Event_Center.SPA.pdb": "sha256-ccrgIUgNINmN9LxGUNdHeEbwyaUNXu+kkwJBCAMzGdc="
     },
     "runtime": {
-      "dotnet.6.0.16.imgray8ony.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",
+      "dotnet.6.0.16.k54jy57tpm.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",
       "dotnet.timezones.blat": "sha256-u8KbOjPcD2\/Pcbb0HaYyOuxEMMBYBUoicERKuSq9KMU=",
       "dotnet.wasm": "sha256-qD0yE2pPRrUZHsuAj5If3uIg1gptLud06+eBaGEftXk=",
       "icudt.dat": "sha256-Zuq0dWAsBm6\/2lSOsz7+H9PvFaRn61KIXHMMwXDfvyE=",

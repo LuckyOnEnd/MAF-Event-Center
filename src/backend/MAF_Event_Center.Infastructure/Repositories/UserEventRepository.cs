@@ -19,6 +19,7 @@ namespace MAF_Event_Center.Infastructure.Repositories
         public async Task AddAsync(UserEvent entity)
         {
             await _db.UserEvents.AddAsync(entity);
+            await _db.SaveChangesAsync();
         }
 
         public Task DeleteById(UserEvent entity)

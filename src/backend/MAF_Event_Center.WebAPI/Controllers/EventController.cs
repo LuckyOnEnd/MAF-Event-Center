@@ -56,9 +56,6 @@ namespace MAF_Event_Center.WebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult> JoinToEvent(JoinToEventCommand command)
         {
-            var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var name = User.FindFirstValue(ClaimTypes.Name);
-            var email = User.FindFirstValue(ClaimsIdentity.DefaultNameClaimType);
             var result = await _mediator.Send(command);
             return Ok(result);
         }
