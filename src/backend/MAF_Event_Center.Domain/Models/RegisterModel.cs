@@ -20,14 +20,9 @@ namespace MAF_Event_Center.Domain.Models
         public string? UserName { get; set; }
 
         [Required]
-        [StringLength(15, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long", MinimumLength = 3)]
-        [Display(Name = "Firstname")]
-        public string? Firstname { get; set; }
-
-        [Required]
-        [StringLength(15, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long", MinimumLength = 3)]
-        [Display(Name = "Lastname")]
-        public string? Lastname { get; set; }
+        [StringLength(10, ErrorMessage = "The {0} must be at leat {2} and at max {1} characters long", MinimumLength = 3)]
+        [Display(Name = "Rank")]
+        public string? Rank { get; set; }
 
         [Required]
         [StringLength(20, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long", MinimumLength = 6)]

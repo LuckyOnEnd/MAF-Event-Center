@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eQX3OiMEi5z2KP8f9mAR5C6wCgNyyOqDVLfwfe2Kw7c=",
+  "Hash": "sVnt3HWrN5Rwo+W79kp8SRh+BgfLq8jK11TjkxCNyBs=",
   "Source": "MAF_Event_Center.SPA",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.15\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\blazored.localstorage\\4.3.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.16.k54jy57tpm.js",
@@ -218,7 +235,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -235,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -303,7 +337,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\Viacheslav\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -3995,6 +4029,23 @@
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.NetworkInformation.dll"
     },
     {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\9xlI0eyA.gz",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\9xU+hLKB.gz",
       "SourceId": "MAF_Event_Center.SPA",
       "SourceType": "Computed",
@@ -4027,23 +4078,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
-    },
-    {
-      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\A89+eU4J.gz",
-      "SourceId": "MAF_Event_Center.SPA",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\aDTN4qI2.gz",
@@ -4231,23 +4265,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.dll"
-    },
-    {
-      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\ckA42YaI.gz",
-      "SourceId": "MAF_Event_Center.SPA",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\CM1D0B6c.gz",
@@ -4947,6 +4964,23 @@
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.dll"
     },
     {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\hg0D7SwL.gz",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\hlSGZy25.gz",
       "SourceId": "MAF_Event_Center.SPA",
       "SourceType": "Computed",
@@ -4962,6 +4996,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.dll"
+    },
+    {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\HO2iEH6o.gz",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\HosjH57T.gz",
@@ -5064,6 +5115,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.dll"
+    },
+    {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\I3OizHz+.gz",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\IH5oYDEZ.gz",
@@ -5814,23 +5882,6 @@
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.dll"
     },
     {
-      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\OSlPlW6I.gz",
-      "SourceId": "MAF_Event_Center.SPA",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\PbJjJywX.gz",
       "SourceId": "MAF_Event_Center.SPA",
       "SourceType": "Computed",
@@ -6407,6 +6458,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.dll"
+    },
+    {
+      "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\wEzKzDYr.gz",
+      "SourceId": "MAF_Event_Center.SPA",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\wlicLmkE.gz",

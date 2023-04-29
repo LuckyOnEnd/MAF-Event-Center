@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MAF_Event_Center.WebAPI.Controllers
 {
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [ApiController]
     [Route("[controller]")]
     public class GameController : Controller
@@ -25,6 +26,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult> CreateGame(CreateGameCommand command)
         {

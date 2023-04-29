@@ -25,13 +25,16 @@ namespace MAF_Event_Center.WebAPI.Controllers
             _userManager = userManager;
         }
 
+        [AllowAnonymous]
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetEvents([FromQuery] GetAllEventsQuery command)
         {
             var result = await _mediator.Send(command);
+            var typeS = result.GetType();
             return Ok(result);
         }
 
+        [AllowAnonymous]
         [HttpGet("GetEventById")]
         public async Task<IActionResult> GetEvent([FromQuery] GetEventByIdQuery command)
         {
@@ -57,6 +60,14 @@ namespace MAF_Event_Center.WebAPI.Controllers
         public async Task<ActionResult> JoinToEvent(JoinToEventCommand command)
         {
             var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpDelete]
+        public async Task<ActionResult> DeleteEvent([FromQuery] DeleteEventQuery commnad)
+        {
+            var result = await _mediator.Send(commnad);
             return Ok(result);
         }
     }

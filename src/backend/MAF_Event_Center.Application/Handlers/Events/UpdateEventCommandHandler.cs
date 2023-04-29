@@ -28,7 +28,7 @@ namespace MAF_Event_Center.Application.Handlers.Events
                 throw new ArgumentNullException(nameof(gameEvent));
             }
             var result = new Event(request.Id, request.EventName, request.StartEvent,
-                request.EndEvent, request.gameId, request.Status, request.HostLink);
+                request.EndEvent, request.gameId, request.Status, request.HostLink, Guid.NewGuid());
 
             await _eventRepository.UpdateAsync(result);
 

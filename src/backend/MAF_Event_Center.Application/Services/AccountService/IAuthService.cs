@@ -9,8 +9,8 @@ namespace MAF_Event_Center.Application.Services.AccountService
 {
     public interface IAuthService
     {
-        Task<(int, string)> SignUp(RegisterModel model, string role);
+        Task<RegisterModelResult> SignUp(RegisterModel model, string role);
 
-        Task<(int, string)> SignIn(LoginModel model);
+        Task<LoginModelResult> SignIn(LoginModel model);
     }
 }

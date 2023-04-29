@@ -24,4 +24,8 @@
     <ProjectReference Include="..\MAF_Event_Center.Domain\MAF_Event_Center.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Queries\User\" />
+  </ItemGroup>
+
 </Project>

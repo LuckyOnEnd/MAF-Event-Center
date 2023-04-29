@@ -1,18 +1,25 @@
 ﻿@page "/counter"
+@inject HttpClient _httpClient;
+@inject IEventService EventService;
+@    using MAF_Event_Center.SPA.Models;
+@    using MAF_Event_Center.SPA.Services;
+    using MAF_Event_Center.SPA.Models.Events;
 
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
 
-<p role="status">Current count: @currentCount</p>
+@foreach(var x in events)
+{
+    <div>@x.Name</div>
+    <div>@x.CreatedAt</div>
+}
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    private List<Event> events = new List<Event>();
+    protected async override Task OnInitializedAsync()
     {
-        currentCount++;
+        events = await EventService.GetEvents();
     }
 }

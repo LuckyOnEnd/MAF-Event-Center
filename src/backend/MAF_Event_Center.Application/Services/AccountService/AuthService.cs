@@ -30,12 +30,12 @@ namespace MAF_Event_Center.Application.Services.AccountService
             _http = http;
         }
 
-        public async Task<(int, string)> SignUp(RegisterModel model, string role)
+        public async Task<RegisterModelResult> SignUp(RegisterModel model, string role)
         {
             var userExist = await _userManager.FindByNameAsync(model.Email);
             if(userExist != null)
             {
-                return (0, "User already exist");
+                return new RegisterModelResult() { Successful = false, Error = "User already exist" };
             }
 
             AppUser user = new()
@@ -43,15 +43,14 @@ namespace MAF_Event_Center.Application.Services.AccountService
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = model.UserName,
-                Firstname = model.Firstname,
-                Lastname = model.Lastname,
+                Rank = model.Rank,
                 Name = model.UserName
             };
 
             var createUserResult = await _userManager.CreateAsync(user, model.Password);
             if(!createUserResult.Succeeded)
             {
-                return (0, "User creation failed! Please check user details and try again");
+                return new RegisterModelResult() { Successful = false, Error = "User creation failed! Please check user details and try again" };
             }
 
             if (!await _roleManager.RoleExistsAsync(role))
@@ -60,16 +59,16 @@ namespace MAF_Event_Center.Application.Services.AccountService
             if (await _roleManager.RoleExistsAsync(role))
                 await _userManager.AddToRoleAsync(user, role);
 
-            return (1, "User created successfuly!");
+            return new RegisterModelResult() { Successful = true, Error = String.Empty };
         }
 
-        public async Task<(int, string)> SignIn(LoginModel model)
+        public async Task<LoginModelResult> SignIn(LoginModel model)
         {
             var user = await _userManager.FindByNameAsync(model.Email);
             if (user == null)
-                return (0, "Invalid user email");
+                return new LoginModelResult() { IsAuthSuccessful = false, ErrorMessage = "Invalid user email" };
             if (!await _userManager.CheckPasswordAsync(user, model.Password))
-                return (0, "Invalid password");
+                return new LoginModelResult() { IsAuthSuccessful = false, ErrorMessage = "Invalid password" };
 
             var userRoles = await _userManager.GetRolesAsync(user);
 
@@ -85,7 +84,7 @@ namespace MAF_Event_Center.Application.Services.AccountService
             }
 
             string token = GenerateToken(authClaims);
-            return (1, token);
+            return new LoginModelResult() { Token = token, IsAuthSuccessful = true };
         }
 
         private string GenerateToken(IEnumerable<Claim> claims)

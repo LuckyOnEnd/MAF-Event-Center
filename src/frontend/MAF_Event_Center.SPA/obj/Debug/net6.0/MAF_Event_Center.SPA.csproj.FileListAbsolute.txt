@@ -602,12 +602,9 @@ D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debu
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\MAF_Event_Center.SPA.AssemblyInfo.cs
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\MAF_Event_Center.SPA.csproj.CoreCompileInputs.cache
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\MAF_Event_Center.SPA.MvcApplicationPartsAssemblyInfo.cache
-D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\ckA42YaI.gz
-D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\A89+eU4J.gz
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\HxHW9Qr7.gz
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\UfQix3Kv.gz
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\dQf683OZ.gz
-D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\OSlPlW6I.gz
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\EV6Bw8cI.gz
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\rX6BKu0+.gz
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\QUEBasXU.gz
@@ -818,3 +815,14 @@ D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debu
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\refint\MAF_Event_Center.SPA.dll
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\MAF_Event_Center.SPA.pdb
 D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\ref\MAF_Event_Center.SPA.dll
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\bin\Debug\net6.0\Blazored.LocalStorage.dll
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\9xlI0eyA.gz
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\I3OizHz+.gz
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\HO2iEH6o.gz
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\hg0D7SwL.gz
+D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\obj\Debug\net6.0\build-gz\wEzKzDYr.gz

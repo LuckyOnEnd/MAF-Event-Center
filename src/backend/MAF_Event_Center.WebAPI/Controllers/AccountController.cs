@@ -29,10 +29,10 @@ namespace MAF_Event_Center.WebAPI.Controllers
                 if (!ModelState.IsValid)
                     return BadRequest("Invalid payload");
 
-                var (status, message) = await _authService.SignIn(model);
-                if (status == 0)
-                    return BadRequest(message);
-                return Ok(message);
+                var result = await _authService.SignIn(model);
+                if (!result.IsAuthSuccessful)
+                    return BadRequest(result);
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -50,13 +50,13 @@ namespace MAF_Event_Center.WebAPI.Controllers
                 if (!ModelState.IsValid)
                     return BadRequest("Invalid payload");
 
-                var (status, message) = await _authService.SignUp(model, UserRoles.Admin);
-                if(status == 0)
+                var result = await _authService.SignUp(model, UserRoles.User);
+                if(!result.Successful)
                 {
-                    return BadRequest(message);
+                    return BadRequest(result.Error);
                 }
 
-                return CreatedAtAction(nameof(SignUp), model);
+                return Ok(result);
             }
             catch (Exception ex)
             {

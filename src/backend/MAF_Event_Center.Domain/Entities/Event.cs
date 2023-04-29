@@ -21,8 +21,10 @@ namespace MAF_Event_Center.Domain.Entities
         public string ?HostLink { get; set; }
         public DateTime CreatedAt { get; set; }
 
+        public Guid CreatedUser { get; set; }
+
         public Event() { }
-        public Event(Guid id,string name, DateTime startEvent, DateTime endEvent, Guid gameId, EventStatus status, string hostLink)
+        public Event(Guid id,string name, DateTime startEvent, DateTime endEvent, Guid gameId, EventStatus status, string hostLink, Guid createdUser)
         {
             Id = id;
             Name = name;
@@ -33,6 +35,7 @@ namespace MAF_Event_Center.Domain.Entities
             Status = status;
             CreatedAt = DateTime.Now;
             IsDeleted = false;
+            CreatedUser = createdUser;
         }
     }
 }

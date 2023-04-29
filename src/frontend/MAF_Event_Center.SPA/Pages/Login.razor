@@ -1,0 +1,69 @@
+﻿@page "/login"
+@using MAF_Event_Center.SPA.Models.Auth;
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Components.Authorization;
+@inject IAuthService AuthService
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
+@inject NavigationManager NavigationManager
+
+<h1>Login</h1>
+
+@if (ShowErrors)
+{
+    <div class="alert alert-danger" role="alert">
+        <p>@Error</p>
+    </div>
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Please enter your details</h5>
+        <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <InputText Id="email" Class="form-control" @bind-Value="loginModel.Email" />
+                <ValidationMessage For="@(() => loginModel.Email)" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <InputText Id="password" type="password" Class="form-control" @bind-Value="loginModel.Password" />
+                <ValidationMessage For="@(() => loginModel.Password)" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+
+    private LoginModel loginModel = new LoginModel();
+    private bool ShowErrors;
+    private string Error = "";
+    private string userName = "";
+    private async Task HandleLogin()
+    {
+        ShowErrors = false;
+
+        var result = await AuthService.Login(loginModel);
+
+        if (result.IsAuthSuccessful)
+        {
+            var auth = await GetAuthenticationStateAsync.GetAuthenticationStateAsync();
+
+            var user = auth.User;
+            userName = user.Identity.Name;
+            Console.WriteLine(userName);
+            Console.WriteLine("asdasd");
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            Error = result.ErrorMessage;
+            ShowErrors = true;
+        }
+    }
+
+}
