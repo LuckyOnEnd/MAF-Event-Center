@@ -1,4 +1,4 @@
-﻿using MAF_Event_Center.SPA.Models;
+﻿using MAF_Event_Center.SPA.Models.Auth;
 
 namespace MAF_Event_Center.SPA.Services
 {

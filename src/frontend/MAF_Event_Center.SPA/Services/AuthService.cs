@@ -1,5 +1,4 @@
 ﻿using Blazored.LocalStorage;
-using MAF_Event_Center.SPA.Models;
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
@@ -7,6 +6,7 @@ using System.Text.Json;
 using System.Text;
 using MAF_Event_Center.SPA.Services;
 using MAF_Event_Center.SPA.AuthProviders;
+using MAF_Event_Center.SPA.Models.Auth;
 
 public class AuthService : IAuthService
 {
