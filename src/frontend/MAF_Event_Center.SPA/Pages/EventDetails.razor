@@ -1,0 +1,58 @@
+﻿@page "/event/details/{id:guid}"
+
+@inject ApiAuthenticationStateProvider AuthenticationStateProvider
+
+@using MAF_Event_Center.SPA.AuthProviders;
+@using MAF_Event_Center.SPA.Models;
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Components.Authorization;
+@using System.Security.Claims;
+
+@inject IEventService EventService;
+@inject IUserService UserService;
+
+<PageTitle>MAF Event Center</PageTitle>
+
+<h1>HUYANTER</h1>
+
+    <div>@eventApp.Name</div>
+    <div>@eventApp.CreatedAt</div>
+    <div>@eventApp.CreatedUser</div>
+
+    <button @onclick="JoinToEvent">JOIN</button>
+
+
+
+
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+    private Event eventApp = new Event();
+    private string Name = "";
+
+    protected async override Task OnInitializedAsync()
+    {
+        eventApp = await EventService.GetEvent(Id);
+
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            Console.WriteLine("NIIICE");
+            Console.WriteLine(user.Identity.Name);
+            Name = user.Identity.Name;
+        }
+        else Console.WriteLine("ASDASDASDASD");
+    }
+
+    private async Task JoinToEvent()
+    {
+        var userName = await UserService.GetUserByName(Name);
+        var userEvent = new UserEvent() { Id = userName.Id, EventId = eventApp.Id };
+        await EventService.JoinUserToEvent(userEvent);
+
+    }
+}

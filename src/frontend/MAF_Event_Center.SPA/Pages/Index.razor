@@ -1,32 +1,27 @@
 ﻿@page "/"
-@using Microsoft.AspNetCore.Components.Authorization;
-@inject AuthenticationStateProvider GetAuthenticationStateAsync
 
-<PageTitle>Index</PageTitle>
+@inject IEventService EventService;
 
-<h1>Hello, world!</h1>
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Services;
 
-<h2>@userName</h2>
+<PageTitle>Counter</PageTitle>
 
-Welcome to your new app.
+<h1>Counter</h1>
 
-<button type="button" class="btn btn-primary btn-pills waves-effect waves-themed">Primary</button>
-<SurveyPrompt Title="How is Blazor working for you?" />
+@foreach (var x in events)
+{
+    <div>@x.Name</div>
+    <div>@x.CreatedAt</div>
+    <a href="/event/details/@x.Id">Link</a>
+}
 
-@code{
-    string userName = "";
+
+@code {
+    private List<Event> events = new List<Event>();
+
     protected async override Task OnInitializedAsync()
     {
-        try
-        {
-            var auth = await GetAuthenticationStateAsync.GetAuthenticationStateAsync();
-
-            var user = auth.User;
-            userName = user.Identity.Name;
-        }
-        catch
-        {
-            
-        }
+        events = await EventService.GetEvents();
     }
 }

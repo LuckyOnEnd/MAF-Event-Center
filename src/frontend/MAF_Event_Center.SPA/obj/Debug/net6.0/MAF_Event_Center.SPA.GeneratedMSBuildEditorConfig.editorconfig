@@ -9,49 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MAF_Event_Center.SPA
 build_property.RootNamespace = MAF_Event_Center.SPA
-build_property.ProjectDir = D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\
+build_property.ProjectDir = D:\development\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\develop\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA
+build_property.MSBuildProjectDirectory = D:\development\freelance\MAF-Event-Center\src\frontend\MAF_Event_Center.SPA
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/App.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/EventDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnREZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/FetchData.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/EventList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Index.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Login.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Register.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Shared/SurveyPrompt.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/_Imports.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Shared/MainLayout.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6hy4lis4x7
 
-[D:/develop/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Shared/NavMenu.razor]
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pqsrpchi3w

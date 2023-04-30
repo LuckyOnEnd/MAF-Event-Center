@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MAF_Event_Center.Domain
-build_property.ProjectDir = D:\develop\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\
+build_property.ProjectDir = D:\development\freelance\MAF-Event-Center\src\backend\MAF_Event_Center.Domain\

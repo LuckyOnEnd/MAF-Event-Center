@@ -2529,19 +2529,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Viacheslav\\.nuget\\packages\\": {}
+    "C:\\Users\\trusv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
+      "projectUniqueName": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
       "projectName": "MAF_Event_Center.Domain",
-      "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
-      "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
-      "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\obj\\",
+      "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
+      "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
+      "outputPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

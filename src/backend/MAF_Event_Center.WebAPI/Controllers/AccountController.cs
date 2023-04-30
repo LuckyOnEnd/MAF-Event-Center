@@ -50,7 +50,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
                 if (!ModelState.IsValid)
                     return BadRequest("Invalid payload");
 
-                var result = await _authService.SignUp(model, UserRoles.User);
+                var result = await _authService.SignUp(model, UserRoles.Admin);
                 if(!result.Successful)
                 {
                     return BadRequest(result.Error);

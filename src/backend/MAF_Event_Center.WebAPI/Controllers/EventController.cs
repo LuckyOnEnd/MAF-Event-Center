@@ -56,7 +56,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("JoinToEvent")]
         public async Task<ActionResult> JoinToEvent(JoinToEventCommand command)
         {
             var result = await _mediator.Send(command);

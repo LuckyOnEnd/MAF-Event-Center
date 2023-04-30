@@ -1,4 +1,5 @@
 ﻿using MAF_Event_Center.Application.Command.User;
+using MAF_Event_Center.Application.Queries.User;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -16,12 +17,20 @@ namespace MAF_Event_Center.WebAPI.Controllers
             _mediator = mediator;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public ActionResult GetUserById() 
         {
             return Ok();
         }
 
+        [AllowAnonymous]
+        [HttpGet("GetByName")]
+        public async Task<ActionResult> GetUserByName([FromQuery] GetUserByNameQuery command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
         [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult CreateUser(CreateUserCommand command)
