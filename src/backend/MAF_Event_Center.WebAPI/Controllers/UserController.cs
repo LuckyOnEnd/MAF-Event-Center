@@ -18,7 +18,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet]
+        [HttpGet("GetById")]
         public ActionResult GetUserById() 
         {
             return Ok();
@@ -31,15 +31,24 @@ namespace MAF_Event_Center.WebAPI.Controllers
             var result = await _mediator.Send(command);
             return Ok(result);
         }
+
+        [AllowAnonymous]
+        [HttpGet("GetUserRole")]
+        public async Task<ActionResult> GetUserRole([FromQuery] GetUserRoleQuery command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
         [Authorize(Roles = "Admin")]
-        [HttpPost]
+        [HttpPost("Create")]
         public ActionResult CreateUser(CreateUserCommand command)
         {
             var result = _mediator.Send(command);
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut("Update")]
         public async Task<ActionResult> UpdateUser(UpdateUserCommand command)
         {
             var result = await _mediator.Send(command);

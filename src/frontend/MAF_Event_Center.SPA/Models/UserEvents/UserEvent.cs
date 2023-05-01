@@ -10,13 +10,5 @@ namespace MAF_Event_Center.SPA.Models.Events
     {
         public Guid Id { get; set; }
         public Guid EventId { get; set; }
-
-        public UserEvent() { }
-
-        public UserEvent(Guid id, Guid eventId)
-        {
-            Id = id;
-            EventId = eventId;
-        }
     }
 }

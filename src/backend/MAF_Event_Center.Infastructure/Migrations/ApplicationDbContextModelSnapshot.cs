@@ -125,6 +125,10 @@ namespace MAF_Event_Center.Infastructure.Migrations
                     b.Property<Guid>("GameId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("GameName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("HostLink")
                         .HasColumnType("nvarchar(max)");
 

@@ -34,6 +34,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
             return Ok(result);
         }
 
+
         [AllowAnonymous]
         [HttpGet("GetEventById")]
         public async Task<IActionResult> GetEvent([FromQuery] GetEventByIdQuery command)
@@ -43,7 +44,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
         }
 
         [HttpPost("CreateEvent")]
-        public async Task<ActionResult> CreateEvent(CreateEventCommand command)
+        public async Task<IActionResult> CreateEvent(CreateEventCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);
@@ -63,8 +64,16 @@ namespace MAF_Event_Center.WebAPI.Controllers
             return Ok(result);
         }
 
+        [AllowAnonymous]
+        [HttpGet("GetAllUserInEvent")]
+        public async Task<ActionResult> GetUserInEvent([FromQuery] GetUserEventsQuery command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
         [Authorize(Roles = "Admin")]
-        [HttpDelete]
+        [HttpDelete("DeleteEvent")]
         public async Task<ActionResult> DeleteEvent([FromQuery] DeleteEventQuery commnad)
         {
             var result = await _mediator.Send(commnad);

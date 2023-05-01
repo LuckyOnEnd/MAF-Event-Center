@@ -10,7 +10,6 @@ namespace MAF_Event_Center.Domain.Entities
 {
     public class Event
     {
-        [Required]
         public Guid Id { get;  set; }
         public string ?Name { get; set; }
         public bool ? IsDeleted { get; set; } = false;
@@ -21,10 +20,11 @@ namespace MAF_Event_Center.Domain.Entities
         public string ?HostLink { get; set; }
         public DateTime CreatedAt { get; set; }
 
+        public string GameName { get; set; }
         public Guid CreatedUser { get; set; }
 
         public Event() { }
-        public Event(Guid id,string name, DateTime startEvent, DateTime endEvent, Guid gameId, EventStatus status, string hostLink, Guid createdUser)
+        public Event(Guid id,string name, DateTime startEvent, DateTime endEvent, Guid gameId, EventStatus status, string hostLink, Guid createdUser, string gameName)
         {
             Id = id;
             Name = name;
@@ -36,6 +36,7 @@ namespace MAF_Event_Center.Domain.Entities
             CreatedAt = DateTime.Now;
             IsDeleted = false;
             CreatedUser = createdUser;
+            GameName = gameName;
         }
     }
 }

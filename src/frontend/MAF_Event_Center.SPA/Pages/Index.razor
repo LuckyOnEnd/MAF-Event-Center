@@ -5,17 +5,26 @@
 @using MAF_Event_Center.SPA.Models.Events;
 @using MAF_Event_Center.SPA.Services;
 
-<PageTitle>Counter</PageTitle>
-
-<h1>Counter</h1>
-
 @foreach (var x in events)
 {
-    <div>@x.Name</div>
-    <div>@x.CreatedAt</div>
-    <a href="/event/details/@x.Id">Link</a>
+    <a href="/event/details/@x.Id">
+    <div class="container pb-2" style="padding-top: 50px">
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="row">
+                        <h1 class="col-5">Name: @x.Name</h1>
+                        <h2 class="col">Start: @x.StartEvent</h2>
+                </div>
+                <div class="row">
+                        <h1 class="col-5">Game: @x.GameName</h1>
+                        <h2 class="col">End: @x.EndEvent</h2>
+                </div>
+            </button>
+        </div>
+        </div>
+    </a>
+    
 }
-
 
 @code {
     private List<Event> events = new List<Event>();
@@ -23,5 +32,6 @@
     protected async override Task OnInitializedAsync()
     {
         events = await EventService.GetEvents();
+
     }
 }

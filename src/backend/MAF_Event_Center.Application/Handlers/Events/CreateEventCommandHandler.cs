@@ -38,14 +38,14 @@ namespace MAF_Event_Center.Application.Handlers.Events
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Name == userName);
             var game = await _gameRepository.GetByIdAsync(request.gameId);
             if (game == null) throw new ArgumentNullException();
-            var entity = new Event(new Guid(),request.EventName, request.StartEvent, request.EndEvent, 
-                request.gameId, EventStatus.Acitve, request.HostLink, Guid.Parse(user.Id));
+            var entity = new Event(new Guid(),request.eventName, request.StartEvent, request.EndEvent, 
+                request.gameId, EventStatus.Acitve, user.UserName, Guid.Parse(user.Id), game.Name);
             await _repository.AddAsync(entity);
 
             var result = new CreateEventDTO()
             {
                 gameId = (Guid)game.Id,
-                Name = request.EventName,
+                eventName = request.eventName,
                 StartEvent = request.StartEvent,
                 EndEvent = request.EndEvent,
             };

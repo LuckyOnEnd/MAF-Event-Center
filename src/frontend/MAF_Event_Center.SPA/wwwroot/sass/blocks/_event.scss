@@ -1,0 +1,25 @@
+.header {
+
+}
+
+.header__row {
+    border-style:solid;
+    border-color:$accent-color;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__text {
+}
+.header__title {
+}
+
+
+//event.html
+
+.ms-2{
+    display: flex;
+    flex-direction: column;
+}

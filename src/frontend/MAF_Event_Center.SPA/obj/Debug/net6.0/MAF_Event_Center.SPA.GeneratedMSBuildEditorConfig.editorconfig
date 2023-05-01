@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/EventCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/development/freelance/MAF-Event-Center/src/frontend/MAF_Event_Center.SPA/Pages/EventDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnREZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

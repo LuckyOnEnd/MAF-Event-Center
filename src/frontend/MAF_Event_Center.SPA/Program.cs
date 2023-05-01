@@ -6,20 +6,21 @@ using MAF_Event_Center.SPA.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.AspNetCore.Http;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7034") });
-builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddAuthorizationCore();
-builder.Services.AddScoped<ApiAuthenticationStateProvider>();
-builder.Services.AddScoped<AuthenticationStateProvider>(p =>
-                p.GetRequiredService<ApiAuthenticationStateProvider>());
+
+builder.Services.AddBlazoredLocalStorage();
+
 builder.Services.AddScoped<AuthenticationStateProvider, ApiAuthenticationStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IHttpContextAccessor, HttpContextAccessor>();
 
 await builder.Build().RunAsync();

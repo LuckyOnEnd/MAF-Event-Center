@@ -222,13 +222,13 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "MAF_Event_Center.SPA.dll": "sha256-qSIt3pmXLDVUUiD4hdoYeu+jz76m7NMxNiNWqgoWMzc="
+      "MAF_Event_Center.SPA.dll": "sha256-tI83lcYOtOYoe9LF6kX6l4D3TOCDNKyKDCMmGIgvHcg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MAF_Event_Center.SPA.pdb": "sha256-WYEGzaUN\/sB372PZOjDMu6FxJOuLTkZD9D8luGzpyXw="
+      "MAF_Event_Center.SPA.pdb": "sha256-8A4yjrp8Vc0HBaQPFDhCpyXkXT0A+tcl0yfGy70Mj8Y="
     },
     "runtime": {
       "dotnet.6.0.16.imgray8ony.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",

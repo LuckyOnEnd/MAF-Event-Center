@@ -10,14 +10,9 @@ namespace MAF_Event_Center.Domain.DTOs.Event
 {
     public class CreateEventDTO
     {
-        [Required]
-        public string? Name { get; set; }
-        [Required]
+        public string eventName { get; set; }
         public DateTime StartEvent { get; set; }
-        [Required]
         public DateTime EndEvent { get; set; }
-        [Required]
         public Guid gameId { get; set; }
-        public string? HostLink { get; private set; }
     }
 }

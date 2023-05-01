@@ -1,0 +1,52 @@
+﻿@page "/event/create"
+
+@inject IEventService EventService
+@inject HttpClient _http
+
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models;
+@using MAF_Event_Center.SPA.Services;
+
+
+<div class="container">
+    <EditForm OnValidSubmit="CreateEvent" Model="eventCreate" class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Name event</label>
+            <InputText @bind-Value="eventCreate.eventName" class="form-control" id="inputName"/>
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Name game</label>
+            <InputSelect class="form-select" aria-label="Default select example" @bind-Value="@eventCreate.gameId">
+                <option selected>Open this select menu</option>
+                @foreach (var x in games)
+                {
+                    <option value="@x.Id">@x.Name</option>
+                }
+            </InputSelect>
+        </div>
+        <div class="col-md-6">
+            <label for="inputDate" class="form-label">Start Game</label>
+           <InputDate @bind-Value="eventCreate.StartEvent" class="form-control" id="inputDate"/>
+        </div>
+        <div class="col-md-6">
+            <label for="inputDate" class="form-label">End Game</label>
+            <InputDate @bind-Value="eventCreate.EndEvent" class="form-control" id="inputDate"/>
+        </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+    </EditForm>
+</div>
+@code {
+    private CreateEventDTO eventCreate = new CreateEventDTO();
+    private List<Game> games = new List<Game>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        games = await EventService.GetGames();
+    }
+
+    private async Task CreateEvent()
+    {
+        await EventService.CreateEvent(eventCreate);
+    }
+}

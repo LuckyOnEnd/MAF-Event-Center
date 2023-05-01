@@ -1,6 +1,7 @@
 ﻿using MAF_Event_Center.Application.Services.Interfaces;
 using MAF_Event_Center.Domain.Entities;
 using MAF_Event_Center.Infastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,9 +28,9 @@ namespace MAF_Event_Center.Infastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<UserEvent>> GetAllAsync()
+        public async Task<IEnumerable<UserEvent>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _db.UserEvents.ToListAsync();
         }
 
         public Task<UserEvent> GetByIdAsync(Guid id)

@@ -1,6 +1,6 @@
 ﻿@page "/event/details/{id:guid}"
 
-@inject ApiAuthenticationStateProvider AuthenticationStateProvider
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 @using MAF_Event_Center.SPA.AuthProviders;
 @using MAF_Event_Center.SPA.Models;
@@ -14,44 +14,41 @@
 
 <PageTitle>MAF Event Center</PageTitle>
 
-<h1>HUYANTER</h1>
-
-    <div>@eventApp.Name</div>
-    <div>@eventApp.CreatedAt</div>
-    <div>@eventApp.CreatedUser</div>
-
-    <button @onclick="JoinToEvent">JOIN</button>
-
-
-
+<div class="container">
+    <ol class="list-group list-group-numbered">
+        <div class="fw-bold">@eventApp.Name</div>
+        <div class="ms-2 me-auto">
+            <span>@eventApp.GameName</span>
+            <span>@eventApp.StartEvent</span>
+            <span>@eventApp.EndEvent</span>
+            <a href="/user/@eventApp.CreatedUser">@eventApp.CreatedUser</a>
+        </div>
+        <div class="fw-bold">Members</div>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Nickname</div>
+                Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+    </ol>
+</div>
 
 
 @code {
     [Parameter]
     public Guid Id { get; set; }
     private Event eventApp = new Event();
-    private string Name = "";
 
     protected async override Task OnInitializedAsync()
     {
         eventApp = await EventService.GetEvent(Id);
-
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        var user = authState.User;
-
-        if (user.Identity.IsAuthenticated)
-        {
-            Console.WriteLine("NIIICE");
-            Console.WriteLine(user.Identity.Name);
-            Name = user.Identity.Name;
-        }
-        else Console.WriteLine("ASDASDASDASD");
     }
 
     private async Task JoinToEvent()
     {
-        var userName = await UserService.GetUserByName(Name);
-        var userEvent = new UserEvent() { Id = userName.Id, EventId = eventApp.Id };
+       
+        var userEvent = new UserEvent() { Id = Guid.NewGuid() , EventId = eventApp.Id };
         await EventService.JoinUserToEvent(userEvent);
 
     }

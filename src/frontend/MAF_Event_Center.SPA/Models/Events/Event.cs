@@ -13,7 +13,7 @@ namespace MAF_Event_Center.SPA.Models.Events
         public Guid GameId { get; set; }
         public string? HostLink { get; set; }
         public DateTime CreatedAt { get; set; }
-
+        public string GameName { get; set; }
         public Guid CreatedUser { get; set; }
     }
 }
