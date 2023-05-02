@@ -39,6 +39,7 @@
     [Parameter]
     public Guid Id { get; set; }
     private Event eventApp = new Event();
+    private List<UserEvent> userEvents = new List<UserEvent>();
 
     protected async override Task OnInitializedAsync()
     {

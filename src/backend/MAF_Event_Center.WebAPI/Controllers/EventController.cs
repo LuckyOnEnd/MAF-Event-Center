@@ -30,7 +30,6 @@ namespace MAF_Event_Center.WebAPI.Controllers
         public async Task<IActionResult> GetEvents([FromQuery] GetAllEventsQuery command)
         {
             var result = await _mediator.Send(command);
-            var typeS = result.GetType();
             return Ok(result);
         }
 
@@ -66,7 +65,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
 
         [AllowAnonymous]
         [HttpGet("GetAllUserInEvent")]
-        public async Task<ActionResult> GetUserInEvent([FromQuery] GetUserEventsQuery command)
+        public async Task<IActionResult> GetUserInEvent([FromQuery] GetUserEventsQuery command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);
