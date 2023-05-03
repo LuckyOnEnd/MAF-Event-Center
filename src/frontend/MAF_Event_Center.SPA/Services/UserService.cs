@@ -24,5 +24,12 @@ namespace MAF_Event_Center.SPA.Services
 
             return result;
         }
+
+        public Task<List<AppUser>> GetUsers()
+        {
+            var result = _http.GetFromJsonAsync<List<AppUser>>("/api/User/GetAll");
+
+            return result;
+        }
     }
 }

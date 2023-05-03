@@ -1,0 +1,33 @@
+﻿@page "/users"
+
+@using MAF_Event_Center.SPA.Models.User
+@using MAF_Event_Center.SPA.Services;
+
+@inject IUserService UserService
+
+<h1 class="ml-2 mt-2 pb-4">All users</h1>
+<RadzenDataGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true"
+                ColumnWidth="70px" AllowSorting="true" Data="@users" TItem="AppUser"
+                SelectionMode="DataGridSelectionMode.Single">
+    <Columns>
+        <RadzenDataGridColumn TItem="AppUser" Property="Name" Title="Username" />
+        <RadzenDataGridColumn TItem="AppUser" Property="Email" Title="Mail" />
+        <RadzenDataGridColumn TItem="AppUser" Property="Rank" Title="User rank" />
+        <RadzenDataGridColumn TItem="AppUser" Width="70px" Sortable="false" Filterable="false">
+            <Template Context="users">
+                <NavLink href="@($"details/{users.Id}")"><button class="btn btn-primary">More</button></NavLink>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+
+@code {
+    RadzenDataGrid<AppUser> dataGrid;
+    public List<AppUser> users = new List<AppUser>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        users = await UserService.GetUsers();
+    }
+}

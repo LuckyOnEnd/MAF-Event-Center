@@ -1,699 +1,699 @@
 {
   "Files": [
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\a0d5aYpu.gz",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\build-gz\\Fdn1+SF8.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MAF_Event_Center.SPA.styles.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MAF_Event_Center.SPA.styles.css",
       "PackagePath": "staticwebassets\\MAF_Event_Center.SPA.styles.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\app.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\app.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\app.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\app.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\app.bundle.css",
       "PackagePath": "staticwebassets\\css\\app.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\app.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\datagrid\\datatables\\datatables.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\datagrid\\datatables\\datatables.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\datagrid\\datatables\\datatables.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\datagrid\\datatables\\datatables.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\datagrid\\datatables\\datatables.bundle.css",
       "PackagePath": "staticwebassets\\css\\datagrid\\datatables\\datatables.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\datagrid\\datatables\\datatables.bundle.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\datagrid\\datatables\\datatables.bundle.css.map",
       "PackagePath": "staticwebassets\\css\\datagrid\\datatables\\datatables.bundle.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-brands-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-brands-rtl.css",
       "PackagePath": "staticwebassets\\css\\fa-brands-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-brands.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-brands.css",
       "PackagePath": "staticwebassets\\css\\fa-brands.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-duotone-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-duotone-rtl.css",
       "PackagePath": "staticwebassets\\css\\fa-duotone-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-duotone.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-duotone.css",
       "PackagePath": "staticwebassets\\css\\fa-duotone.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-light-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-light-rtl.css",
       "PackagePath": "staticwebassets\\css\\fa-light-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-light.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-light.css",
       "PackagePath": "staticwebassets\\css\\fa-light.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-regular-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-regular-rtl.css",
       "PackagePath": "staticwebassets\\css\\fa-regular-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-regular.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-regular.css",
       "PackagePath": "staticwebassets\\css\\fa-regular.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-solid-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-solid-rtl.css",
       "PackagePath": "staticwebassets\\css\\fa-solid-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-solid.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\fa-solid.css",
       "PackagePath": "staticwebassets\\css\\fa-solid.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\cropperjs\\cropper-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\cropperjs\\cropper-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\cropperjs\\cropper-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\cropperjs\\cropper.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\cropperjs\\cropper.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\cropperjs\\cropper.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\cropperjs\\cropper.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\cropperjs\\cropper.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\cropperjs\\cropper.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\dropzone\\dropzone-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\dropzone\\dropzone-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\dropzone\\dropzone-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\dropzone\\dropzone.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\dropzone\\dropzone.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\dropzone\\dropzone.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\dropzone\\dropzone.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\dropzone\\dropzone.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\dropzone\\dropzone.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\ion-rangeslider\\ion-rangeslider-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\ion-rangeslider\\ion-rangeslider-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\nouislider\\nouislider-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\nouislider\\nouislider-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\nouislider\\nouislider-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\nouislider\\nouislider.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\nouislider\\nouislider.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\nouislider\\nouislider.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\nouislider\\nouislider.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\nouislider\\nouislider.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\nouislider\\nouislider.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\select2\\select2.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\select2\\select2.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\select2\\select2.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\select2\\select2.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\select2\\select2.bundle.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\select2\\select2.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\select2\\select2.bundle.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\select2\\select2.bundle.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\select2\\select2.bundle.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\smartwizard\\smartwizard-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\smartwizard\\smartwizard-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\smartwizard\\smartwizard-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\smartwizard\\smartwizard.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\smartwizard\\smartwizard.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\smartwizard\\smartwizard.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\smartwizard\\smartwizard.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\smartwizard\\smartwizard.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\smartwizard\\smartwizard.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\summernote\\summernote-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\summernote\\summernote-rtl.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\summernote\\summernote-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\summernote\\summernote.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\summernote\\summernote.css",
       "PackagePath": "staticwebassets\\css\\formplugins\\summernote\\summernote.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\summernote\\summernote.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\formplugins\\summernote\\summernote.css.map",
       "PackagePath": "staticwebassets\\css\\formplugins\\summernote\\summernote.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\json-path-picker\\json-path-picker-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\json-path-picker\\json-path-picker-rtl.css",
       "PackagePath": "staticwebassets\\css\\json-path-picker\\json-path-picker-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\json-path-picker\\json-path-picker.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\json-path-picker\\json-path-picker.css",
       "PackagePath": "staticwebassets\\css\\json-path-picker\\json-path-picker.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\json-path-picker\\json-path-picker.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\json-path-picker\\json-path-picker.css.map",
       "PackagePath": "staticwebassets\\css\\json-path-picker\\json-path-picker.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\main.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\main.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\main.css.map",
       "PackagePath": "staticwebassets\\css\\main.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\main.min.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\main.min.css",
       "PackagePath": "staticwebassets\\css\\main.min.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle.css.map",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\fullcalendar\\fullcalendar.bundle.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\jqvmap\\jqvmap.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\jqvmap\\jqvmap.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\jqvmap\\jqvmap.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\jqvmap\\jqvmap.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\jqvmap\\jqvmap.bundle.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\jqvmap\\jqvmap.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\jqvmap\\jqvmap.bundle.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\jqvmap\\jqvmap.bundle.css.map",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\jqvmap\\jqvmap.bundle.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\lightgallery\\lightgallery.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\lightgallery\\lightgallery.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\lightgallery\\lightgallery.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\lightgallery\\lightgallery.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\lightgallery\\lightgallery.bundle.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\lightgallery\\lightgallery.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\lightgallery\\lightgallery.bundle.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\lightgallery\\lightgallery.bundle.css.map",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\lightgallery\\lightgallery.bundle.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\nestable\\nestable-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\nestable\\nestable-rtl.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\nestable\\nestable-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\nestable\\nestable.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\nestable\\nestable.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\nestable\\nestable.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\nestable\\nestable.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\nestable\\nestable.css.map",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\nestable\\nestable.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\reactions\\reactions-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\reactions\\reactions-rtl.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\reactions\\reactions-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\reactions\\reactions.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\reactions\\reactions.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\reactions\\reactions.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\reactions\\reactions.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\reactions\\reactions.css.map",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\reactions\\reactions.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\treeview\\treeview-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\treeview\\treeview-rtl.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\treeview\\treeview-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\treeview\\treeview.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\treeview\\treeview.css",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\treeview\\treeview.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\treeview\\treeview.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\miscellaneous\\treeview\\treeview.css.map",
       "PackagePath": "staticwebassets\\css\\miscellaneous\\treeview\\treeview.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\sweetalert2\\sweetalert2.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\sweetalert2\\sweetalert2.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\notifications\\sweetalert2\\sweetalert2.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css",
       "PackagePath": "staticwebassets\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css.map",
       "PackagePath": "staticwebassets\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\toastr\\toastr-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\toastr\\toastr-rtl.css",
       "PackagePath": "staticwebassets\\css\\notifications\\toastr\\toastr-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\toastr\\toastr.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\toastr\\toastr.css",
       "PackagePath": "staticwebassets\\css\\notifications\\toastr\\toastr.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\toastr\\toastr.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\notifications\\toastr\\toastr.css.map",
       "PackagePath": "staticwebassets\\css\\notifications\\toastr\\toastr.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-invoice-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-invoice-rtl.css",
       "PackagePath": "staticwebassets\\css\\page-invoice-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-invoice.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-invoice.css",
       "PackagePath": "staticwebassets\\css\\page-invoice.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-login-alt-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-login-alt-rtl.css",
       "PackagePath": "staticwebassets\\css\\page-login-alt-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-login-alt.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\page-login-alt.css",
       "PackagePath": "staticwebassets\\css\\page-login-alt.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\site.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\skins\\skin-master-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\skins\\skin-master-rtl.css",
       "PackagePath": "staticwebassets\\css\\skins\\skin-master-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\skins\\skin-master.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\skins\\skin-master.css",
       "PackagePath": "staticwebassets\\css\\skins\\skin-master.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\skins\\skin-master.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\skins\\skin-master.css.map",
       "PackagePath": "staticwebassets\\css\\skins\\skin-master.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\c3\\c3-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\c3\\c3-rtl.css",
       "PackagePath": "staticwebassets\\css\\statistics\\c3\\c3-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\c3\\c3.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\c3\\c3.css",
       "PackagePath": "staticwebassets\\css\\statistics\\c3\\c3.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\c3\\c3.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\c3\\c3.css.map",
       "PackagePath": "staticwebassets\\css\\statistics\\c3\\c3.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartist\\chartist-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartist\\chartist-rtl.css",
       "PackagePath": "staticwebassets\\css\\statistics\\chartist\\chartist-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartist\\chartist.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartist\\chartist.css",
       "PackagePath": "staticwebassets\\css\\statistics\\chartist\\chartist.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartist\\chartist.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartist\\chartist.css.map",
       "PackagePath": "staticwebassets\\css\\statistics\\chartist\\chartist.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartjs\\chartjs-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartjs\\chartjs-rtl.css",
       "PackagePath": "staticwebassets\\css\\statistics\\chartjs\\chartjs-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartjs\\chartjs.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartjs\\chartjs.css",
       "PackagePath": "staticwebassets\\css\\statistics\\chartjs\\chartjs.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartjs\\chartjs.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\chartjs\\chartjs.css.map",
       "PackagePath": "staticwebassets\\css\\statistics\\chartjs\\chartjs.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\dygraph\\dygraph-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\dygraph\\dygraph-rtl.css",
       "PackagePath": "staticwebassets\\css\\statistics\\dygraph\\dygraph-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\dygraph\\dygraph.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\dygraph\\dygraph.css",
       "PackagePath": "staticwebassets\\css\\statistics\\dygraph\\dygraph.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\dygraph\\dygraph.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\statistics\\dygraph\\dygraph.css.map",
       "PackagePath": "staticwebassets\\css\\statistics\\dygraph\\dygraph.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\theme-demo-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\theme-demo-rtl.css",
       "PackagePath": "staticwebassets\\css\\theme-demo-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\theme-demo.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\theme-demo.css",
       "PackagePath": "staticwebassets\\css\\theme-demo.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-1-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-1-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-1-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-1.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-1.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-1.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-1.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-1.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-1.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-10-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-10-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-10-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-10.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-10.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-10.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-10.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-10.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-10.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-11-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-11-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-11-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-11.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-11.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-11.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-11.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-11.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-11.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-12-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-12-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-12-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-12.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-12.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-12.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-12.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-12.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-12.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-13-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-13-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-13-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-13.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-13.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-13.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-13.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-13.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-13.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-14-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-14-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-14-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-14.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-14.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-14.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-14.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-14.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-14.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-15-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-15-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-15-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-15.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-15.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-15.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-15.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-15.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-15.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-2-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-2-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-2-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-2.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-2.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-2.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-2.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-2.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-2.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-3-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-3-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-3-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-3.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-3.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-3.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-3.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-3.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-3.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-4-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-4-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-4-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-4.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-4.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-4.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-4.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-4.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-4.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-5-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-5-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-5-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-5.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-5.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-5.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-5.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-5.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-5.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-6-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-6-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-6-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-6.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-6.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-6.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-6.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-6.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-6.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-7-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-7-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-7-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-7.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-7.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-7.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-7.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-7.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-7.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-8-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-8-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-8-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-8.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-8.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-8.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-8.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-8.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-8.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-9-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-9-rtl.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-9-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-9.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-9.css",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-9.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-9.css.map",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\themes\\cust-theme-9.css.map",
       "PackagePath": "staticwebassets\\css\\themes\\cust-theme-9.css.map"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\vendors.bundle-rtl.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\vendors.bundle-rtl.css",
       "PackagePath": "staticwebassets\\css\\vendors.bundle-rtl.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\vendors.bundle.css",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\css\\vendors.bundle.css",
       "PackagePath": "staticwebassets\\css\\vendors.bundle.css"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\favicon.ico",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\icon-192.png",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\index.html",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sample-data\\weather.json",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\base\\_base.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\base\\_base.scss",
       "PackagePath": "staticwebassets\\sass\\base\\_base.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\base\\_reset.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\base\\_reset.scss",
       "PackagePath": "staticwebassets\\sass\\base\\_reset.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\base\\_vars.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\base\\_vars.scss",
       "PackagePath": "staticwebassets\\sass\\base\\_vars.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_event.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_event.scss",
       "PackagePath": "staticwebassets\\sass\\blocks\\_event.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_logo.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_logo.scss",
       "PackagePath": "staticwebassets\\sass\\blocks\\_logo.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_nav.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_nav.scss",
       "PackagePath": "staticwebassets\\sass\\blocks\\_nav.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_navigation-list.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\blocks\\_navigation-list.scss",
       "PackagePath": "staticwebassets\\sass\\blocks\\_navigation-list.scss"
     },
     {
-      "Id": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\main.scss",
+      "Id": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\wwwroot\\sass\\main.scss",
       "PackagePath": "staticwebassets\\sass\\main.scss"
     },
     {

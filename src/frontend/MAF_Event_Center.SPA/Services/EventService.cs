@@ -51,6 +51,11 @@ namespace MAF_Event_Center.SPA.Services
             return result;
         }
 
+        public Task<List<UserEvent>> GetUsersInEvent(Guid eventId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<System.Net.HttpStatusCode> JoinUserToEvent(UserEvent userEvent)
         {
             var result =  await _httpClient.PostAsJsonAsync("/Event/JoinToEvent", userEvent);

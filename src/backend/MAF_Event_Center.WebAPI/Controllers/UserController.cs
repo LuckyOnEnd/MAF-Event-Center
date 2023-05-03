@@ -3,10 +3,11 @@ using MAF_Event_Center.Application.Queries.User;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 
 namespace MAF_Event_Center.WebAPI.Controllers
 {
-    [Authorize(AuthenticationSchemes = "Bearer")]
+   // [Authorize(AuthenticationSchemes = "Bearer")]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -15,6 +16,13 @@ namespace MAF_Event_Center.WebAPI.Controllers
         public UserController(IMediator mediator)
         {
             _mediator = mediator;
+        }
+
+        [HttpGet("GetAll")]
+        public async Task<ActionResult> GetUsers([FromQuery] GetAllUsersQuery command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
         }
 
         [AllowAnonymous]

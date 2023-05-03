@@ -52,7 +52,9 @@
       "Microsoft.JSInterop.dll": "sha256-iWMp8jiBOHzzLH3kp3R6NxvZ4O1YC5M96cqeH2l\/U+A=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-Gg9LBlaJWdtb3sSzYeYmfRVL27Dj19DRx543CX2pbqs=",
       "Microsoft.Net.Http.Headers.dll": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
+      "Radzen.Blazor.dll": "sha256-3kaqDZZFdWY3+zfpz4mj9wDK7Onu3bN6M1P\/oTZ8Ovk=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
+      "System.Linq.Dynamic.Core.dll": "sha256-SetHNtEBbS0VL\/dxzjLcAGfOJQ1aCdalKVL6isWUm2M=",
       "System.Security.Cryptography.Pkcs.dll": "sha256-N9DCLv4KncFaeu+Mm\/p0z9Tpm18+0BHixwnRgbTu9aI=",
       "System.Security.Cryptography.Xml.dll": "sha256-7+zqG+1zKg9E8FY+goqBhYQMEMi6XJ5kjHHxKwjKvwk=",
       "System.Security.Permissions.dll": "sha256-jKmbTXbScI0nBA2C2HyfK+smmH4oMUauprwnXZLolc4=",
@@ -222,16 +224,16 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "MAF_Event_Center.SPA.dll": "sha256-tI83lcYOtOYoe9LF6kX6l4D3TOCDNKyKDCMmGIgvHcg="
+      "MAF_Event_Center.SPA.dll": "sha256-LL9NiS5xgNbk+Kq4rAITzvFugW7aeBVFBVMwtko9bjU="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MAF_Event_Center.SPA.pdb": "sha256-8A4yjrp8Vc0HBaQPFDhCpyXkXT0A+tcl0yfGy70Mj8Y="
+      "MAF_Event_Center.SPA.pdb": "sha256-N0qxMjECt3lukwS9UR+ZinB0UJiT\/YdA1ThX8hwk0zM="
     },
     "runtime": {
-      "dotnet.6.0.16.imgray8ony.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",
+      "dotnet.6.0.16.k54jy57tpm.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",
       "dotnet.timezones.blat": "sha256-u8KbOjPcD2\/Pcbb0HaYyOuxEMMBYBUoicERKuSq9KMU=",
       "dotnet.wasm": "sha256-qD0yE2pPRrUZHsuAj5If3uIg1gptLud06+eBaGEftXk=",
       "icudt.dat": "sha256-Zuq0dWAsBm6\/2lSOsz7+H9PvFaRn61KIXHMMwXDfvyE=",

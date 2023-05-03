@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj": {}
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj": {}
   },
   "projects": {
-    "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
         "projectName": "MAF_Event_Center.Application",
-        "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\obj\\",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
-                "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
               }
             }
           }
@@ -99,17 +99,17 @@
         }
       }
     },
-    "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
         "projectName": "MAF_Event_Center.Domain",
-        "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\obj\\",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,17 +196,17 @@
         }
       }
     },
-    "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj",
         "projectName": "MAF_Event_Center.Infastructure",
-        "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\obj\\",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\MAF_Event_Center.Infastructure.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Infastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,11 +220,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
-                "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj"
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Application\\MAF_Event_Center.Application.csproj"
               },
-              "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
-                "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
+              "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj": {
+                "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\backend\\MAF_Event_Center.Domain\\MAF_Event_Center.Domain.csproj"
               }
             }
           }

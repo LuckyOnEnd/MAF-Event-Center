@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj": {}
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj": {}
   },
   "projects": {
-    "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj": {
+    "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj",
+        "projectUniqueName": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj",
         "projectName": "MAF_Event_Center.SPA",
-        "projectPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\",
+        "projectPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\MAF_Event_Center.SPA.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav\\.nuget\\packages\\",
+        "outputPath": "D:\\develop\\freelance\\MAF-Event-Center\\src\\frontend\\MAF_Event_Center.SPA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viacheslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,6 +60,10 @@
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[4.10.2, )"
             }
           },
           "imports": [
