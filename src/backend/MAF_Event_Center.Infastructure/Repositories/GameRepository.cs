@@ -24,9 +24,10 @@ namespace MAF_Event_Center.Infastructure.Repositories
             await _db.SaveChangesAsync();
         }
 
-        public Task DeleteById(Game entity)
+        public async Task DeleteById(Game entity)
         {
-            throw new NotImplementedException();
+            _db.Games.Remove(entity);
+            await _db.SaveChangesAsync();
         }
 
         public async Task<Game> GetByIdAsync(Guid id)

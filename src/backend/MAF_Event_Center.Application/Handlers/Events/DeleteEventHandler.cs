@@ -33,8 +33,6 @@ namespace MAF_Event_Center.Application.Handlers.Events
 
             var Event = await _repository.GetByIdAsync(request.Id);
 
-            if (Event.CreatedUser != Guid.Parse(user.Id))
-                throw new ArgumentException("You cannot delete this event");
 
             await _repository.DeleteById(Event);
 

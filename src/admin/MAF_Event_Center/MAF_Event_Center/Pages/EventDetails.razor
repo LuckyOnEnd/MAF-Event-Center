@@ -1,0 +1,103 @@
+﻿@page "/event/details/{id:guid}"
+
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+@using MAF_Event_Center.SPA.AuthProviders;
+@using MAF_Event_Center.SPA.Models;
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models.UserEvents;
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Components.Authorization;
+@using System.Security.Claims;
+
+@inject IEventService EventService;
+@inject IUserService UserService;
+@inject NavigationManager nav;
+
+<PageTitle>MAF Event Center</PageTitle>
+
+    <div class="container">
+        <EditForm OnValidSubmit="UpdateEvent" Model="eventCreate" class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Name event</label>
+                <InputText @bind-Value="eventCreate.Name" class="form-control" id="inputName" />
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Game</label>
+                <InputSelect class="form-select" aria-label="Default select example" @bind-Value="@eventCreate.GameName">
+                    <option selected>@eventCreate.GameName</option>
+                    @foreach (var x in games)
+                    {
+                        <option value="@x.Id">@x.Name</option>
+                    }
+                </InputSelect>
+            </div>
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">Start Game</label>
+                <InputDate @bind-Value="eventCreate.StartEvent" class="form-control" id="inputDate" />
+            </div>
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">End Game</label>
+                <InputDate @bind-Value="eventCreate.EndEvent" class="form-control" id="inputDate" />
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">End Game</label>
+                <InputText @bind-Value="eventCreate.Description" class="form-control" id="description" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+        <a><button @onclick="DeleteEvent" class="btn btn-danger">Delete</button></a>
+
+        </EditForm>
+
+    @foreach(var x in userEvents)
+    {
+        <div>Usename: @x.UserName</div>
+        <br />
+    }
+
+    </div>
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+    private Event eventCreate = new Event();
+    private UpdateEventDTO updateEvent = new UpdateEventDTO();
+    private List<UserEventDTO> userEvents = new List<UserEventDTO>();
+    private List<Game> games = new List<Game>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        eventCreate = await EventService.GetEvent(Id);
+        try
+        {
+            userEvents = await EventService.GetUsersInEvent(Id);
+
+        }
+        catch
+        {
+            userEvents = new List<UserEventDTO>();
+        }
+        games = await EventService.GetGames();
+    }
+
+    private async Task UpdateEvent()
+    {
+        updateEvent.EventName = eventCreate.Name;
+        updateEvent.Id = Id;
+        updateEvent.gameId = eventCreate.GameId;
+        updateEvent.Description = eventCreate.Description;
+        updateEvent.StartEvent = eventCreate.StartEvent;
+        updateEvent.EndEvent = eventCreate.EndEvent;
+
+        var result = await EventService.UpdateEvent(updateEvent);
+        nav.NavigateTo("/events");
+    }
+
+    private async Task DeleteEvent()
+    {
+        var result = await EventService.DeleteEvent(Id);
+        nav.NavigateTo("/events");
+    }
+}

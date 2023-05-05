@@ -27,22 +27,32 @@ namespace MAF_Event_Center.Application.Handlers.Events
 
         public async Task<List<UserEventDTO>> Handle(GetUserEventsQuery request, CancellationToken cancellationToken)
         {
-            var userEvents = await _userEventsRepository.GetAllAsync();
-
-            var result = new List<UserEventDTO>();
-
-            foreach (var userEvent in userEvents)
+            try
             {
-                var appEvent = await _eventRepository.GetByIdAsync(userEvent.EventId);
-                var userName = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == userEvent.Id.ToString());
-                result.Add(new UserEventDTO()
-                {
-                    EventName = appEvent.Name,
-                    UserName = userName.UserName,
-                });
-            }
+                var userEvents = await _userEventsRepository.GetAllAsync();
 
-            return result.ToList();
+                var result = new List<UserEventDTO>();
+
+                foreach (var userEvent in userEvents)
+                {
+                    var appEvent = await _eventRepository.GetByIdAsync(userEvent.EventId);
+                    if (appEvent == null)
+                        break;
+                    var userName = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == userEvent.Id.ToString());
+                    result.Add(new UserEventDTO()
+                    {
+                        EventName = appEvent.Name,
+                        UserName = userName.UserName,
+                    });
+                }
+
+                return result.ToList();
+            }
+            catch
+            {
+                throw new ArgumentException("Somthing is went wrong");
+            }
+            
         }
     }
 }

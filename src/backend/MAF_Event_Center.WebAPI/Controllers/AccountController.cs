@@ -1,6 +1,7 @@
 ﻿using MAF_Event_Center.Application.Services.AccountService;
 using MAF_Event_Center.Domain.Models;
 using MAF_Event_Center.Domain.ValueObjects;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -50,7 +51,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
                 if (!ModelState.IsValid)
                     return BadRequest("Invalid payload");
 
-                var result = await _authService.SignUp(model, UserRoles.Admin);
+                var result = await _authService.SignUp(model, UserRoles.User);
                 if(!result.Successful)
                 {
                     return BadRequest(result.Error);
@@ -64,5 +65,6 @@ namespace MAF_Event_Center.WebAPI.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
     }
 }

@@ -1,7 +1,9 @@
 ﻿using MAF_Event_Center.SPA.Models;
 using MAF_Event_Center.SPA.Models.Events;
+using MAF_Event_Center.SPA.Models.UserEvents;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using System.Net;
 using System.Net.Http.Json;
 using System.Security.Claims;
 
@@ -51,9 +53,11 @@ namespace MAF_Event_Center.SPA.Services
             return result;
         }
 
-        public Task<List<UserEvent>> GetUsersInEvent(Guid eventId)
+        public async Task<List<UserEventDTO>> GetUsersInEvent(Guid eventId)
         {
-            throw new NotImplementedException();
+            var result = await _httpClient.GetFromJsonAsync<List<UserEventDTO>>($"/Event/GetAllUserInEvent?Id={eventId}");
+
+            return result;
         }
 
         public async Task<System.Net.HttpStatusCode> JoinUserToEvent(UserEvent userEvent)
@@ -63,5 +67,24 @@ namespace MAF_Event_Center.SPA.Services
             return result.StatusCode;
         }
 
+        public async Task<List<Event>> GetCreatedEventsByUser(Guid createdUser)
+        {
+            var result = await _httpClient.GetFromJsonAsync<Event[]>("/Event/GetAll");
+
+            return result.Where(x => x.CreatedUser == createdUser).ToList();
+        }
+
+        public async Task<HttpStatusCode> UpdateEvent(CreateEventDTO model)
+        {
+            var result = await _httpClient.PutAsJsonAsync("/Event/EditEvent", model);
+            return result.StatusCode;
+        }
+
+        public async Task<HttpStatusCode> DeleteEvent(Guid id)
+        {
+            var result = await _httpClient.DeleteAsync($"/Event/DeleteEvent?id={id}");
+
+            return result.StatusCode;
+        }
     }
 }

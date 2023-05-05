@@ -10,5 +10,5 @@ using System.Threading.Tasks;
 namespace MAF_Event_Center.Application.Command.Event
 {
     public record CreateEventCommand(string eventName, DateTime StartEvent, DateTime EndEvent,
-       Guid gameId) : IRequest<CreateEventDTO>;
+       Guid gameId, string Description) : IRequest<CreateEventDTO>;
 }

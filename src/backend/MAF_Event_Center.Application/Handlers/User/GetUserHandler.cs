@@ -30,7 +30,9 @@ namespace MAF_Event_Center.Application.Handlers.User
             {
                 UserName = user.UserName,
                 Id = Guid.Parse(user.Id),
-                Rank = user.Rank
+                Rank = user.Rank,
+                CanCreate = user.CanCreate,
+                Email = user.Email,
             };
 
             return userDto;

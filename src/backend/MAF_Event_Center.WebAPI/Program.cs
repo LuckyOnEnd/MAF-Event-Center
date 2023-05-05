@@ -17,6 +17,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using System;
 using System.Reflection;
 using System.Text;
 
@@ -27,7 +28,7 @@ namespace MAF_Event_Center.WebAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            
             // Add services to the container.
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -104,9 +105,8 @@ namespace MAF_Event_Center.WebAPI
                     };
                 });
 
-            var app = builder.Build();
 
-           
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -122,6 +122,8 @@ namespace MAF_Event_Center.WebAPI
             app.MapControllers();
 
             app.UseCors();
+
+            app.MigrateDatabase();
 
             app.Run();
         }

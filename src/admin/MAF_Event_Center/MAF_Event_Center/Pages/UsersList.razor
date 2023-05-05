@@ -1,0 +1,50 @@
+﻿@page "/users"
+
+@using MAF_Event_Center.SPA.Models.User
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Components.Authorization
+@using Radzen.Blazor;
+@using Radzen;
+
+@attribute [Authorize]
+@inject IUserService UserService
+
+<AuthorizeView>
+    <Authorized>
+        @if(user.Name != "admin"){
+            <h1 class="ml-2 mt-2 pb-4">All users</h1>
+            <RadzenDataGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true"
+                        ColumnWidth="70px" AllowSorting="true" Data="@users" TItem="AppUser"
+                        SelectionMode="DataGridSelectionMode.Single">
+                <Columns>
+                    <RadzenDataGridColumn TItem="AppUser" Property="Name" Title="Username" />
+                    <RadzenDataGridColumn TItem="AppUser" Property="Rank" Title="User rank" />
+                    <RadzenDataGridColumn TItem="AppUser" Width="70px" Sortable="false" Filterable="false">
+                        <Template Context="users">
+                            <NavLink href="@($"user/{users.Id}")"><button class="btn btn-primary">More</button></NavLink>
+                        </Template>
+                    </RadzenDataGridColumn>
+                </Columns>
+            </RadzenDataGrid>
+        }
+        else{
+            <p>Permission denied</p>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <div>Permission denied</div>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+    RadzenDataGrid<AppUser> dataGrid;
+    public List<AppUser> users = new List<AppUser>();
+    public AppUser user = new AppUser();
+    protected async override Task OnInitializedAsync()
+    {
+        users = await UserService.GetUsers();
+        user = await UserService.GetCurrentUser();
+    }
+}

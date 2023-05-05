@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MAF_Event_Center.props" />
+</Project>

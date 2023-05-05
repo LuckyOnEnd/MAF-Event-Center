@@ -11,5 +11,7 @@ namespace MAF_Event_Center.Domain.DTOs.AppUser
         public Guid Id { get; set; }
         public string UserName { get; set; }
         public string Rank { get; set; }
+        public string Email { get; set; }
+        public string CanCreate { get; set; }    
     }
 }

@@ -5,6 +5,7 @@
 @using MAF_Event_Center.SPA.AuthProviders;
 @using MAF_Event_Center.SPA.Models;
 @using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models.UserEvents;
 @using MAF_Event_Center.SPA.Services;
 @using Microsoft.AspNetCore.Components.Authorization;
 @using System.Security.Claims;
@@ -15,23 +16,34 @@
 <PageTitle>MAF Event Center</PageTitle>
 
 <div class="container">
-    <ol class="list-group list-group-numbered">
-        <div class="fw-bold">@eventApp.Name</div>
-        <div class="ms-2 me-auto">
-            <span>@eventApp.GameName</span>
-            <span>@eventApp.StartEvent</span>
-            <span>@eventApp.EndEvent</span>
-            <a href="/user/@eventApp.CreatedUser">@eventApp.CreatedUser</a>
+    <ol class="list-group list-group-numbered mt-5">
+        <div class="row">
+            <div class="fw-bold col-6" style="font-size:40px;">@eventApp.Name</div>
+            <span class="col-6 mt-2"style="font-size:20px;">Event start at: @eventApp.StartEvent</span>
         </div>
-        <div class="fw-bold">Members</div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-                <div class="fw-bold">Nickname</div>
-                Content for list item
-            </div>
-            <span class="badge bg-primary rounded-pill">14</span>
-        </li>
+       <div class="row">
+                <span class="col-6 mt-2" style="font-size:20px;">Game: @eventApp.GameName</span>
+                <span class="col-6 mt-2" style="font-size:20px;">Event end at: @eventApp.EndEvent</span>
+                <p  class="col-6 mt-3" style="font-size: 17px;">
+                    Description:  @eventApp.Description
+                </p>
+        </div>
+        <a class="mt-5 ml-5 pb-5" href="/user/profile/@eventApp.CreatedUser">Link to host</a>
     </ol>
+        <buttton class="mt-2.7 ml-5 btn btn-primary" @onclick="JoinToEvent">JOIN</buttton>
+    @if (isUserCanEdit)
+    {
+        <a href="/event/edit/{@Id}" class="ml-5"><button class="btn btn-success">EDIT</button></a>
+    }
+        @foreach (var x in userEvents)
+        {
+            <div class="fw-bold mt-5">Members</div>
+            <div class="list-group-item d-flex justify-content-between align-items-start" style="color:white">
+                <div class="ms-2 me-auto" style="color:white">
+                    <div class="fw-bold">Nickname: @x.UserName</div>
+                </div>
+            </div>
+        }
 </div>
 
 
@@ -39,11 +51,28 @@
     [Parameter]
     public Guid Id { get; set; }
     private Event eventApp = new Event();
-    private List<UserEvent> userEvents = new List<UserEvent>();
+    private List<UserEventDTO> userEvents = new List<UserEventDTO>();
+    private bool isUserCanEdit = false;
 
     protected async override Task OnInitializedAsync()
     {
         eventApp = await EventService.GetEvent(Id);
+        userEvents = await EventService.GetUsersInEvent(Id);
+
+        try
+        {
+            var user = await UserService.GetCurrentUser();
+            if (user.Id == eventApp.CreatedUser)
+            {
+                isUserCanEdit = true;
+            }
+
+        }
+        catch
+        {
+
+            isUserCanEdit = false;  
+        }
     }
 
     private async Task JoinToEvent()

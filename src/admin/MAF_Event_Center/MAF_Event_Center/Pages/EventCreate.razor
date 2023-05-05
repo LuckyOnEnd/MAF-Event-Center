@@ -1,0 +1,78 @@
+﻿@page "/event/create"
+
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
+@inject IEventService EventService
+@inject HttpClient _http
+@inject IUserService UserService
+@inject NavigationManager nav
+
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models;
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Components.Authorization;
+
+
+<div class="container">
+    <EditForm OnValidSubmit="CreateEvent" Model="eventCreate">
+
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="row">
+            <div class="col-md-6 pt-5">
+                <label for="inputEmail4" class="form-label">Name event</label>
+                <InputText @bind-Value="eventCreate.eventName" class="form-control" id="inputName" />
+            </div>
+            <div class="col-md-6  pt-5">
+                <label for="inputPassword4" class="form-label">Name game</label>
+                <InputSelect class="form-select" aria-label="Default select example" @bind-Value="@eventCreate.gameId">
+                    <option value="Choose game">Choose game</option>
+                    @foreach (var x in games)
+                    {
+                        <option value="@x.Id">@x.Name</option>
+                    }
+                </InputSelect>
+            </div>
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">Start Game</label>
+                <InputDate @bind-Value="eventCreate.StartEvent" class="form-control" id="inputDate" />
+            </div>
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">End Game</label>
+                <InputDate @bind-Value="eventCreate.EndEvent" class="form-control" id="inputDate" />
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">Description</label>
+                <InputTextArea @bind-Value="eventCreate.Description" class="form-control" id="description" />
+            </div>
+
+        </div>
+       
+        <button type="submit" class="btn btn-primary" style="margin-top:70px;font-size:20px;">Create</button>
+    </EditForm>
+</div>
+@code {
+    private CreateEventDTO eventCreate = new CreateEventDTO();
+    private List<Game> games = new List<Game>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        games = await EventService.GetGames();
+        eventCreate.StartEvent = DateTime.Now;
+        eventCreate.EndEvent = DateTime.Now;
+    }
+
+    private async Task CreateEvent()
+    {
+        try
+        {
+            await EventService.CreateEvent(eventCreate);
+            nav.NavigateTo("/events");
+        
+        }
+        catch
+        {
+            nav.NavigateTo("/login");
+        }
+    }
+}

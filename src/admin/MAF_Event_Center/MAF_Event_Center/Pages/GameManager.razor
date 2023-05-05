@@ -1,0 +1,48 @@
+﻿@page "/games"
+
+@using MAF_Event_Center.Models.Game;
+@using MAF_Event_Center.SPA.Models;
+@using MAF_Event_Center.SPA.Services;
+
+@inject NavigationManager nav
+@inject IGameService GameService
+<h3>Games</h3>
+<EditForm Model="game" OnSubmit="CreateGame">
+    <InputText @bind-Value="@game.Name" />
+    <button type="submit">Add</button>
+</EditForm>
+@foreach(var x in games)
+{
+    <div class="row" style="padding-top: 30px;">
+        <div class="col-3">
+            <span style="font-size:20px;">@x.Name</span>
+        </div>
+        <div class="col">
+            <button class="btn btn-danger" style="margin-left:20px;" @onclick="() => DeleteGame(x.Id.ToString())">Delete</button>
+        </div>
+    </div>
+}
+
+@code {
+    List<Game> games = new List<Game>();
+    CreateGame game = new CreateGame(); 
+    string gameName = "";
+    private Guid deleteGameId;
+
+    protected async override Task OnInitializedAsync()
+    {
+        games = await GameService.GetAll();
+    }
+
+    private async Task CreateGame()
+    {
+        await GameService.CreateGame(new CreateGame() { Name = game.Name, ImageUrl = "string" });
+        nav.NavigateTo("/events");
+    }
+
+    private void DeleteGame(string Id)
+    {
+        GameService.Delete(Guid.Parse(Id));
+        nav.NavigateTo("/events");
+    }
+}

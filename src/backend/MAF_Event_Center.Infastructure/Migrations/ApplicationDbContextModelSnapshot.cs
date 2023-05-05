@@ -119,6 +119,10 @@ namespace MAF_Event_Center.Infastructure.Migrations
                     b.Property<Guid>("CreatedUser")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("EndEvent")
                         .HasColumnType("datetime2");
 

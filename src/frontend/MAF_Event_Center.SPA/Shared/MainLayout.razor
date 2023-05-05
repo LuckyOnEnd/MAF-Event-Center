@@ -1,4 +1,8 @@
-﻿@inherits LayoutComponentBase
+﻿@using MAF_Event_Center.SPA.Services;
+
+@inherits LayoutComponentBase
+
+@inject IAuthService AuthService
 
 <div class="page">
     <div class="sidebar">
@@ -9,3 +13,10 @@
         @Body
     </main>
 </div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.Logout();
+    }
+}

@@ -18,11 +18,11 @@ namespace MAF_Event_Center.Application.Handlers.Events
             _repository = repository;
         }
 
-        public Task<IEnumerable<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<Event>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
         {
-            var result = _repository.GetAllAsync();
+            var result = await _repository.GetAllAsync();
 
-            return result;
+            return result.Reverse();
         }
     }
 }

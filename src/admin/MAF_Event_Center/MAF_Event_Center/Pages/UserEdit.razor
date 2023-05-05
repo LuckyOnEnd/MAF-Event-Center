@@ -1,0 +1,74 @@
+﻿@page "/user/{id:guid}"
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models.User;
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Authorization;
+
+@inject IEventService EventService
+@inject IUserService UserService 
+@attribute [Authorize]
+
+<EditForm Model="user">
+    <div class="pt-3">
+        <span>Username</span>
+        <InputText @bind-Value="@user.UserName" />
+    </div>
+    <div class="pt-3">
+        <span>Rank</span>
+        <InputText @bind-Value="@user.Rank" />
+    </div>
+
+    <div class="pt-5">
+        <span>Can user create events?</span>
+        <InputSelect class="form-select" aria-label="Default select example" @bind-Value="@user.CanCreate">
+            <option value="@canCreate">@canCreate</option>
+            <option value="@cannotRead">@cannotRead</option>
+        </InputSelect>
+    </div>
+    
+
+    <button class="btn btn-success" @onclick="UpdateUser">Save</button>
+</EditForm>
+
+<div>User created evetns: </div>
+@if(userEvents.Count == 0){
+    <div>User haven't created event yet</div>
+}
+@foreach (var x in userEvents)
+{
+    <div class="container pb-2" style="padding-top: 50px">
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="row">
+                    <div><b>@x.Name</b> @x.GameName</div>
+                </div>
+            </button>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private string canCreate = "yes";
+    private string cannotRead = "no";
+    private AppUserDTO user = new AppUserDTO();
+    private CreateUserManager createUser = new CreateUserManager();
+    private List<Event> userEvents = new List<Event>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        user = await UserService.GetUserById(Id);
+        userEvents = await EventService.GetCreatedEventsByUser(Id);
+    }
+
+    private async Task UpdateUser()
+    {
+        createUser.Id = Id;
+        createUser.canCreate = user.CanCreate;
+        createUser.rank = user.Rank;
+        createUser.userName = user.UserName;
+        var result = await UserService.UpdateUser(createUser);
+    }
+}

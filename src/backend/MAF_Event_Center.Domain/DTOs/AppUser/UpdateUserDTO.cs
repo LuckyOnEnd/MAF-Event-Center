@@ -12,7 +12,6 @@ namespace MAF_Event_Center.Domain.DTOs.AppUser
         public string UserName { get; set; }
         public string Password { get; set; }
         public string Rank { get; set; }
-        public string Role { get; set; }
         public string CanCreate { get; set; }
     }
 }

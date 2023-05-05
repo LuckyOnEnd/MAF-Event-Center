@@ -8,7 +8,7 @@ namespace MAF_Event_Center.Domain.DTOs.Events
 {
     public class UserEventDTO
     {
-        public string UserName;
-        public string EventName;
+        public string UserName { get; set; }
+        public string EventName { get; set; }
     }
 }

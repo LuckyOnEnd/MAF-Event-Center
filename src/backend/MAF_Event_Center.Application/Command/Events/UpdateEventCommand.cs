@@ -13,5 +13,5 @@ using System.Threading.Tasks;
 namespace MAF_Event_Center.Application.Command.Events
 {
     public record UpdateEventCommand(Guid Id ,string EventName, DateTime StartEvent, DateTime EndEvent,
-       Guid gameId, EventStatus Status) : IRequest<UpdateEventDTO>;
+       Guid gameId, string Description) : IRequest<UpdateEventDTO>;
 }

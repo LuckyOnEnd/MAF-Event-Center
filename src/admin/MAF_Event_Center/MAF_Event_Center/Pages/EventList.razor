@@ -1,0 +1,42 @@
+﻿@page "/events"
+
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models.User
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Authorization;
+@using Radzen.Blazor;
+@using Radzen;
+
+@attribute [Authorize]
+@inject IEventService EventService
+
+<h1 class="ml-2 mt-2 pb-4">All Events</h1>
+
+<a class="mt-5 ml-5 pb-4"href="/event/create"><button class="btn-success">Create event</button></a>
+<RadzenDataGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true"
+                ColumnWidth="70px" AllowSorting="true" Data="@events" TItem="Event"
+                SelectionMode="DataGridSelectionMode.Single">
+    <Columns>
+        <RadzenDataGridColumn TItem="Event" Property="Name" Title="Event name" />
+        <RadzenDataGridColumn TItem="Event" Property="GameName" Title="Game name" />
+        <RadzenDataGridColumn TItem="Event" Property="StartEvent" Title="Event start" />
+        <RadzenDataGridColumn TItem="Event" Property="EndEvent" Title="Event end" />
+        <RadzenDataGridColumn TItem="Event" Width="70px" Sortable="false" Filterable="false">
+            <Template Context="events">
+                <NavLink href="@($"event/details/{events.Id}")"><button class="btn btn-primary">More</button></NavLink>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+
+
+@code {
+    RadzenDataGrid<Event> dataGrid;
+    public List<Event> events = new List<Event>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        events = await EventService.GetEvents();
+    }
+}

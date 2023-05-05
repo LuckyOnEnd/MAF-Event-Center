@@ -1,0 +1,56 @@
+﻿@page "/profile"
+
+@inject IUserService UserService
+@inject NavigationManager nav
+@inject IAuthService AuthService
+
+@using MAF_Event_Center.SPA.Models.User;
+@using MAF_Event_Center.SPA.Services;
+<EditForm Model="user" OnSubmit="UpdateUser">
+    <div style="padding-left:50px; padding-top: 50px;" class="row">
+        <div class="col-3">
+            <span style="font-size: 25px;">Username: </span>
+        </div>
+        <div class="col">
+            <InputText class="" style="width:400px; font-size:25px; height:35px;" @bind-Value="@user.userName"></InputText>
+        </div>
+        <div class="row mt-5">
+            <div class="col-3">
+                <span style="font-size: 25px;">Rank: </span>
+            </div>
+            <div class="col">
+                <InputText class="" style="width:400px; font-size:25px; height:35px;" @bind-Value="@user.rank"></InputText>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" style="font-size:20px; margin-left:20px; margin-top:50px" class="btn btn-success">Save</button>
+</EditForm>
+
+<p>@error</p>
+@code {
+    CreateUserManager user = new CreateUserManager();
+    private string error = "";
+    protected async override Task OnInitializedAsync()
+    {
+        try
+        {
+            var userService = await UserService.GetCurrentUser();
+            user.canCreate = userService.CanCreate;
+            user.userName = userService.UserName;
+            user.Id = userService.Id;
+            user.rank = userService.Rank;
+        }
+        catch
+        {
+            error = "You are not authorizated";
+        }
+    }
+
+    private async Task UpdateUser()
+    {
+        var result = await UserService.UpdateUser(user);
+        await AuthService.Logout();
+        nav.NavigateTo("/");
+    }
+}

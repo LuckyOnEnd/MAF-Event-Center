@@ -39,7 +39,6 @@ namespace MAF_Event_Center.Application.Handlers.User
 
             user.Name = request.userName;
             user.UserName = request.userName;
-            user.Password = request.password;
             user.Rank = request.rank;
 
             if(request.canCreate != "string")
@@ -47,8 +46,7 @@ namespace MAF_Event_Center.Application.Handlers.User
                 user.CanCreate = request.canCreate;
             }
 
-            await _userManager.RemoveFromRoleAsync(user, role.Name);
-            await _userManager.AddToRoleAsync(user, request.role);
+          //  await _userManager.RemoveFromRoleAsync(user, role.Name);
 
             await _userManager.UpdateAsync(user);
 

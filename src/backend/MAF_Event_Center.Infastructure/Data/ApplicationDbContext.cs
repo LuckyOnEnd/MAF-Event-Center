@@ -1,4 +1,6 @@
 ﻿using MAF_Event_Center.Domain.Entities;
+using MAF_Event_Center.Domain.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -19,5 +21,10 @@ namespace MAF_Event_Center.Infastructure.Data
         public DbSet<Event> Events { get; set; }
 
         public DbSet<UserEvent> UserEvents { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
 }

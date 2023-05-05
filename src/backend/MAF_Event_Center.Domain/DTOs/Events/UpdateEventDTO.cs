@@ -16,8 +16,6 @@ namespace MAF_Event_Center.Domain.DTOs.Events
         public string? Name { get; set; }
 
         [Required]
-        public EventStatus Status { get; set; }
-        [Required]
         public DateTime StartEvent { get; set; }
         [Required]
         public DateTime EndEvent { get; set; }

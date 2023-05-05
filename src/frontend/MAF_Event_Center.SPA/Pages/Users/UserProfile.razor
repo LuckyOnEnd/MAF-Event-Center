@@ -1,0 +1,40 @@
+﻿@page "/user/profile/{Id:guid}"
+@using MAF_Event_Center.SPA.Models.Events;
+@using MAF_Event_Center.SPA.Models.User;
+@using MAF_Event_Center.SPA.Services;
+
+@inject IUserService UserService
+@inject IEventService EventService
+
+<h3 class="ml-5 mt-5">UserProfile</h3>
+<div class="row">
+    <input Id="email" Class="form-control col-3 ml-5" style="font-size:25px;" value="Username: @user.UserName" readonly />
+    <input Id="email" Class="form-control col-3 ml-2" style="font-size:25px;" value="Rank: @user.Rank" readonly />
+</div>
+
+@foreach(var x in userEvents)
+{
+    <div class="container pb-2" style="padding-top: 50px">
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="row">
+                    <div><b>@x.Name</b> @x.GameName</div>
+                </div>
+            </button>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private AppUserDTO user = new AppUserDTO();
+    private List<Event> userEvents = new List<Event>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        user = await UserService.GetUserById(Id);
+        userEvents = await EventService.GetCreatedEventsByUser(Id);
+    }
+}

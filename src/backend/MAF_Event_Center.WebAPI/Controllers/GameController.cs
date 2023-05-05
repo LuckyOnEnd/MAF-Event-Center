@@ -35,7 +35,6 @@ namespace MAF_Event_Center.WebAPI.Controllers
             return Ok(result);
         }
 
-        [Authorize(Roles = "Admin")]
         [HttpPost("Create")]
         public async Task<ActionResult> CreateGame(CreateGameCommand command)
         {
@@ -53,7 +52,7 @@ namespace MAF_Event_Center.WebAPI.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpDelete("Delete")]
-        public async Task<ActionResult> DeleteGame(CreateGameCommand command)
+        public async Task<ActionResult> DeleteGame([FromQuery]DeleteGameQuery command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);

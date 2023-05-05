@@ -7,7 +7,7 @@ using Microsoft.VisualBasic;
 
 namespace MAF_Event_Center.WebAPI.Controllers
 {
-   // [Authorize(AuthenticationSchemes = "Bearer")]
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -27,9 +27,10 @@ namespace MAF_Event_Center.WebAPI.Controllers
 
         [AllowAnonymous]
         [HttpGet("GetById")]
-        public ActionResult GetUserById() 
+        public async Task<ActionResult> GetUserById([FromQuery] GetUserByIdQuery command)
         {
-            return Ok();
+            var result = await _mediator.Send(command);
+            return Ok(result);
         }
 
         [AllowAnonymous]
@@ -60,6 +61,14 @@ namespace MAF_Event_Center.WebAPI.Controllers
         public async Task<ActionResult> UpdateUser(UpdateUserCommand command)
         {
             var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpGet("CurrentUser")]
+        public async Task<ActionResult> GetCurrentUser([FromQuery] GetCurrentUserQuery command)
+        {
+            var result = await _mediator.Send(command);
+
             return Ok(result);
         }
     }

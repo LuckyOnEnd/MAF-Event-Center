@@ -1,0 +1,81 @@
+﻿@using System.Security.Claims;
+@using MAF_Event_Center.SPA.Services;
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inherits LayoutComponentBase
+
+@inject NavigationManager nav
+@inject IAuthService AuthService
+@inject IUserService UserService
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">MAF_Event_Center.SPA</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div @onclick="ToggleNavMenu">
+            <nav class="flex-column">
+        <AuthorizeView>
+            <Authorized>
+              
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/users" Match="NavLinkMatch.All">
+                            <span class="oi oi-home" aria-hidden="true"></span> Users
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/events" Match="NavLinkMatch.All">
+                            <span class="oi oi-home" aria-hidden="true"></span> Event manager
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/games" Match="NavLinkMatch.All">
+                            <span class="oi oi-home" aria-hidden="true"></span> Games
+                        </NavLink>
+                    </div>
+                <div class="nav-item px-3">
+                    <NavLink @onclick="LogOut" class="nav-link" href="/" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> LogOut
+                    </NavLink>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="/login" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> SignIn
+                    </NavLink>
+                </div>
+                
+            </NotAuthorized>
+        </AuthorizeView>
+            </nav>
+</div>
+
+@code {
+    private List<(string, string)> links = new List<(string, string)>();
+    private string UserRole = "";
+    protected override async Task OnInitializedAsync()
+    {
+        var result  = await UserService.GetUserRole();
+        UserRole = result.Role;
+    }
+
+    private async Task LogOut()
+    {
+        await AuthService.Logout();
+        nav.NavigateTo("/");
+    }
+
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
